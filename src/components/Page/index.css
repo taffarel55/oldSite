@@ -1,0 +1,11 @@
+.Page {
+  width: calc(100% - 200px);
+  background: #1d232a;
+}
+
+.Page__content {
+  padding: 3rem 5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}

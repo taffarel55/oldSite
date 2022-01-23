@@ -1,13 +1,132 @@
-body {
+/* Generic Styles */
+
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html {
+  font-size: 62.5%;
+}
+
+/* Text Styles */
+
+h1 {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 4.2rem;
+  line-height: 6.4rem;
+}
+
+h2 {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 3.2rem;
+  line-height: 4.8rem;
+}
+
+h3 {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2.6rem;
+  line-height: 3.2rem;
+}
+
+h4 {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+}
+
+h5 {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+}
+
+p {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.6rem;
+  line-height: 3.2rem;
+}
+
+p.legend {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+}
+
+button.normal {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+}
+
+button.small {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+}
+
+.small-font {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+}
+
+a {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+
+  text-decoration-line: underline;
+}
+
+/* Color Styles */
+
+:root {
+  --main-primary: #0480dc;
+  --main-hover: #0063ac;
+  --main-pressed: #004b83;
+  --neutral-100: #15191c;
+  --neutral-90: #1d232a;
+  --neutral-80: #2c343a;
+  --neutral-50: #95999c;
+  --neutral-20: #d5d5d5;
+  --neutral-10: #e7e7e7;
+  --neutral-05: #f3f3f3;
+  --neutral-white: #ffffff;
+  --colorful-red: #f83636;
+  --colorful-green: #1ab060;
+}
+
+/* Effect Styles */
+
+.menu-effect {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.16);
+}
+
+.modal-effect {
+  box-shadow: 32px 32px 32px rgba(0, 0, 0, 0.16);
 }

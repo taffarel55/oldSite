@@ -1,0 +1,13 @@
+.MenuBar {
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  background-color: #15191c;
+  color: white;
+}
+
+.delete {
+  filter: invert(1);
+}

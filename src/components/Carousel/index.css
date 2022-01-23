@@ -1,0 +1,11 @@
+.Carousel__title {
+  color: var(--neutral-white);
+  margin-bottom: 24px;
+}
+
+.Carousel__items {
+  display: flex;
+  gap: 32px;
+  padding-bottom: 10px;
+  overflow-x: scroll;
+}

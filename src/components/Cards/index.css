@@ -1,0 +1,78 @@
+.SmallCard {
+  width: 240px;
+}
+
+.SmallCard__image {
+  display: block;
+
+  height: 160px;
+  object-fit: cover;
+  border-radius: 1.6rem 1.6rem 0 0;
+}
+
+.SmallCard__description {
+  position: relative;
+  background-color: var(--neutral-80);
+  border-radius: 0 0 1.6rem 1.6rem;
+  padding: 1.6rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.SmallCard__description--author {
+  width: 48px;
+  border-radius: 50%;
+  position: absolute;
+  top: -30px;
+  right: 16px;
+}
+
+.BigCard {
+  max-width: 480px;
+}
+
+.BigCard__image {
+  display: block;
+  width: 100%;
+  max-height: 240px;
+  object-fit: cover;
+  border-radius: 1.6rem 1.6rem 0 0;
+}
+
+.BigCard__content {
+  background-color: var(--neutral-80);
+  border-radius: 0 0 1.6rem 1.6rem;
+  padding: 1.6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.BigCard__description {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.SmallCard,
+.BigCard {
+  color: var(--neutral-white);
+}
+
+.SmallCard .legend,
+.BigCard .legend {
+  color: var(--neutral-50);
+}
+
+.BigCard__description--author,
+.BigCard__description--time,
+.SmallCard__description--time {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.BigCard__description--author img {
+  width: 24px;
+  border-radius: 50%;
+}

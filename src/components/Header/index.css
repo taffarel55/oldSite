@@ -1,0 +1,16 @@
+.Header {
+  padding: 1.3rem 5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Header__title {
+  justify-self: start;
+  color: var(--neutral-white);
+}
+
+.Header__items {
+  display: flex;
+  gap: 0.4rem;
+  color: var(--neutral-white);
+}
