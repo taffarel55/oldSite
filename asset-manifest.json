@@ -1,15 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.185257d6.css",
-    "main.js": "/static/js/main.18e43013.js",
+    "main.css": "/static/css/main.19535ca1.css",
+    "main.js": "/static/js/main.e9ff9a21.js",
     "static/media/mauricio.jpg": "/static/media/mauricio.c4785ca03b1bf8097783.jpg",
+    "static/media/book.svg": "/static/media/book.30f7c83dd1a183ee44ff0d1061c655cd.svg",
     "index.html": "/index.html",
     "static/media/access-time.svg": "/static/media/access-time.bb9b5e510b4ef9be0aaf17b3b0ff1c13.svg",
-    "main.185257d6.css.map": "/static/css/main.185257d6.css.map",
-    "main.18e43013.js.map": "/static/js/main.18e43013.js.map"
+    "static/media/left-arrow.svg": "/static/media/left-arrow.0e385dca28f07d23dc8e.svg",
+    "static/media/contact.svg": "/static/media/contact.a7bbbcc912e6b6902a3165d68ef94b81.svg",
+    "static/media/profile.svg": "/static/media/profile.a4e20b80d17d42441f043a019b925d0d.svg",
+    "static/media/house.svg": "/static/media/house.9739402f2d312c10446f8f1b198b67a8.svg",
+    "static/media/folder.svg": "/static/media/folder.b5af42992bd9fda3a23e654bfb88571e.svg",
+    "main.19535ca1.css.map": "/static/css/main.19535ca1.css.map",
+    "main.e9ff9a21.js.map": "/static/js/main.e9ff9a21.js.map"
   },
   "entrypoints": [
-    "static/css/main.185257d6.css",
-    "static/js/main.18e43013.js"
+    "static/css/main.19535ca1.css",
+    "static/js/main.e9ff9a21.js"
   ]
 }
