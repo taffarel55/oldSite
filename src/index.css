@@ -23,8 +23,20 @@ html {
   }
 }
 
-
 /* Text Styles */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  color: var(--neutral-white);
+}
+
+h6 {
+  color: var(--neutral-50);
+}
 
 h1 {
   font-family: Open Sans;
@@ -64,6 +76,14 @@ h5 {
   font-weight: bold;
   font-size: 1.4rem;
   line-height: 2.4rem;
+}
+
+h6 {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1rem;
+  line-height: 2rem;
 }
 
 p {
@@ -112,7 +132,6 @@ a {
   font-weight: normal;
   font-size: 1.4rem;
   line-height: 2.4rem;
-
   text-decoration-line: underline;
 }
 

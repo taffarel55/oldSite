@@ -1,0 +1,63 @@
+.Page__markdown p {
+  line-height: 2rem;
+  margin-bottom: 2rem;
+}
+
+.Page__markdown h1,
+.Page__markdown h2,
+.Page__markdown h3,
+.Page__markdown h4,
+.Page__markdown h5,
+.Page__markdown h6 {
+  margin-bottom: 2rem;
+}
+
+.Page__markdown blockquote {
+  background: var(--neutral-80);
+  border-left: 0.5rem solid var(--neutral-50);
+  border-radius: 0.5rem;
+  margin-bottom: 2rem;
+  padding: 0.5em 1rem;
+  padding-top: 20px;
+}
+
+.Page__markdown ul,
+.Page__markdown ol {
+  margin-left: 16px;
+}
+
+.Page__markdown li {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  color: var(--neutral-white);
+}
+
+.Page__markdown pre {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  color: var(--neutral-white);
+  border-radius: 1rem;
+  background-color: var(--neutral-100);
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+
+.Page__markdown hr {
+  border-top: 0.2rem solid var(--neutral-50);
+  margin-bottom: 2rem;
+}
+
+.Page__markdown a {
+  color: var(--neutral-white);
+}
+
+.Page__markdown img {
+  width: 100%;
+  border-radius: 1rem;
+}
