@@ -1,5 +1,5 @@
 import "./index.css";
-import accessTime from "../../Icons/access-time.svg";
+import accessTime from "../../icons/access-time.svg";
 
 const SmallCard = ({ details: { img, author, time } }) => (
   <div className="SmallCard">

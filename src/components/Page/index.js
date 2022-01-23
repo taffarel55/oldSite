@@ -1,23 +1,25 @@
 import "./index.css";
 import Header from "../Header";
-import { BigCard } from "../Cards";
-import Carousel from "../Carousel";
-import mauricio from "../../delete/mauricio.jpg";
+import useGlobalContext from "../../hooks/useGlobalContext";
+import { useLocation } from "react-router-dom";
+import { useEffect } from "react";
 
-const obj = {
-  img: { src: mauricio, alt: "Maurício" },
-  author: { src: mauricio, user: "taffarel55" },
-  time: 25,
-};
+const Page = ({ children }) => {
+  const { collapse, page, newPage } = useGlobalContext();
 
-const Page = () => (
-  <div className="Page">
-    <Header title="Início" />
-    <div className="Page__content">
-      <BigCard details={obj} />
-      <Carousel title={"Carousel Title"} qtd={16} obj={obj} />
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    newPage(pathname);
+    // eslint-disable-next-line
+  }, [pathname]);
+
+  return (
+    <div className={`Page ${collapse ? "amplied" : ""}`}>
+      <Header title={page.title} />
+      <div className="Page__content">{children}</div>
     </div>
-  </div>
-);
+  );
+};
 
 export default Page;

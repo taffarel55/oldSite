@@ -9,7 +9,20 @@
 
 html {
   font-size: 62.5%;
+  background-color: var(--neutral-90);
 }
+
+.App {
+  display: flex;
+  background-color: var(--neutral-90);
+}
+
+@media (max-width: 600px) {
+  .App {
+    flex-direction: column;
+  }
+}
+
 
 /* Text Styles */
 
