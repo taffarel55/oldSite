@@ -1,3 +1,25 @@
+<!--
+name: "Venus"
+discoverer: "Galileo Galilei"
+-->
+
+### My Great Heading {#custom-id}
+
+<iframe src="https://www.youtube.com/embed/9bZkp7q19f0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+😄 😸 😺 😏 ⛄ 😭 🔉
+
+| asd | asd | asd |
+| :-: | :-: | :-: |
+| asd | asd | asd |
+| asd | asd | asd |
+| asd | asd | asd |
+| asd | asd | asd |
+
+$$
+L = \frac{1}{2} \rho v^2 S C_L\tag{1}
+$$
+
 # Heading level 1
 
 ## Heading level 2
@@ -39,8 +61,18 @@ Italicized text is the _cat's meow_.
 
 A*cat*meow
 
-> Dorothy followed her through many of the beautiful rooms in her castle.
+[ ] Checkbox 1
+[x] Checkbox 2
+[ ] Checkbox 3
+[ ] Checkbox 4
 
+- [ ] Checkbox 1
+- [x] Checkbox 2
+- [ ] Checkbox 3
+- [x] Checkbox 4
+
+> Dorothy followed her through many of the beautiful rooms in her castle.
+>
 > Dorothy followed her through many of the beautiful rooms in her castle.
 >
 > The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.
@@ -150,7 +182,7 @@ Try to put a blank line before...
             <title>Test</title>
           </head>
 
-![Tux, the Linux mascot](img/book.png)
+![Tux, the Linux mascot](https://raw.githubusercontent.com/taffarel55/taffarel55.github.io/main/src/pages/About/img/book.svg)
 
 1. First item
 2. Second item
