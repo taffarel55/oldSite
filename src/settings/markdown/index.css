@@ -58,6 +58,66 @@
 }
 
 .Page__markdown img {
-  width: 100%;
   border-radius: 1rem;
+  width: 80%;
+  max-width: 540px;
+  margin: 0 auto;
+  display: block;
+}
+
+.Page__markdown .katex {
+  font-size: 1.6rem;
+  color: var(--neutral-white);
+}
+
+.Page__markdown iframe {
+  border-radius: 1rem;
+  width: 80%;
+  max-width: 540px;
+  margin: 0 auto 2rem auto;
+  display: block;
+  height: 320px;
+}
+
+.Page__markdown table {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  color: var(--neutral-white);
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.Page__markdown table td,
+.Page__markdown table th {
+  border: 1px solid var(--neutral-20);
+  padding: 8px;
+}
+
+.Page__markdown tr:nth-child(even) {
+  background-color: var(--neutral-80);
+}
+
+.Page__markdown tr:hover {
+  background-color: var(--neutral-90);
+}
+
+.Page__markdown th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: var(--neutral-100);
+  color: white;
+}
+
+@media (max-width: 600px) {
+  .Page__markdown img {
+    width: 100%;
+  }
+  .Page__markdown iframe {
+    width: 100%;
+    height: 240px;
+  }
 }
