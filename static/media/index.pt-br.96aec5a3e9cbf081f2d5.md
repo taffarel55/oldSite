@@ -1,11 +1,11 @@
 <!--
-name: "Venus"
-discoverer: "Galileo Galilei"
+author: Galileo Galilei
+date: 22-10-2012
 -->
 
 ### My Great Heading {#custom-id}
 
-<iframe src="https://www.youtube.com/embed/9bZkp7q19f0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<a>https://www.youtube.com/embed/9bZkp7q19f0</a>
 
 😄 😸 😺 😏 ⛄ 😭 🔉
 
@@ -182,7 +182,7 @@ Try to put a blank line before...
             <title>Test</title>
           </head>
 
-![Tux, the Linux mascot](https://raw.githubusercontent.com/taffarel55/taffarel55.github.io/main/src/pages/About/img/book.svg)
+![Tux, the Linux mascot](https://raw.githubusercontent.com/taffarel55/taffarel55.github.io/main/src/pages/About/imgs/book.svg)
 
 1. First item
 2. Second item

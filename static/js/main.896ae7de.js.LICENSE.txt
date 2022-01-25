@@ -11,6 +11,8 @@ object-assign
  * @license  MIT
  */
 
+/*! js-yaml 4.1.0 https://github.com/nodeca/js-yaml @license MIT */
+
 /**
  * React Router DOM v6.2.1
  *
