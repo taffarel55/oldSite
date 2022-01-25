@@ -9,7 +9,17 @@ const useGlobalProvider = () => {
   const getPage = (path) => pages.find((p) => p.link === path);
   const newPage = (path) => setPage(getPage(path));
 
-  const [page, setPage] = useState(getPage(window.location.pathname));
+  const [path, subPath] = window.location.hash.split("/").slice(1);
+  const fullPath = Object.fromEntries(
+    new Map([
+      ["page", "/" + path],
+      ["subpage", "/" + subPath],
+    ])
+  );
+
+  const [page, setPage] = useState(getPage(fullPath?.page));
+
+  console.log(fullPath, page);
 
   return {
     collapse,

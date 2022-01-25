@@ -19,6 +19,7 @@ const MenuBar = () => {
 
 const MenuItem = ({ item: { title, link, img } }) => {
   const { page } = useGlobalContext();
+
   return (
     <Link to={link}>
       <div className={`MenuItem ${page.link === link ? "active" : ""}`}>

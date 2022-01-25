@@ -27,7 +27,7 @@ const useMarkdown = (page) => {
   const yaml = post.split("<!--\n")[1]?.split("\n-->")[0];
   const config = load(yaml);
 
-  console.log(config);
+  // console.log(config);
 
   return (
     <div className="Page__markdown">
