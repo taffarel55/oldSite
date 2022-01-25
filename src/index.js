@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter as HashRouter, Route, Routes } from "react-router-dom";
 import MenuBar from "./components/MenuBar";
 import { GlobalProvider } from "./contexts/GlobalContext";
 import "./index.css";
@@ -15,7 +15,7 @@ const root = document.getElementById("root");
 ReactDOM.render(
   <React.StrictMode>
     <GlobalProvider>
-      <Router>
+      <HashRouter>
         <div className="App">
           <MenuBar />
           <Routes>
@@ -26,7 +26,7 @@ ReactDOM.render(
             <Route path="/about" element={<About />} />
           </Routes>
         </div>
-      </Router>
+      </HashRouter>
     </GlobalProvider>
   </React.StrictMode>,
   root

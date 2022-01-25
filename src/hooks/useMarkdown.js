@@ -8,6 +8,7 @@ import rehypeKatex from "rehype-katex";
 import "katex/dist/katex.min.css";
 import remarkHeading from "remark-heading-id";
 import rehypeRaw from "rehype-raw";
+import { load } from "js-yaml";
 
 const useMarkdown = (page) => {
   const [post, setPost] = useState("");
@@ -23,7 +24,10 @@ const useMarkdown = (page) => {
       .catch((err) => console.log(err));
   });
 
-  console.log(post);
+  const yaml = post.split("<!--\n")[1]?.split("\n-->")[0];
+  const config = load(yaml);
+
+  console.log(config);
 
   return (
     <div className="Page__markdown">
