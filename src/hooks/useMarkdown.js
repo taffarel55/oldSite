@@ -9,10 +9,16 @@ import "katex/dist/katex.min.css";
 import remarkHeading from "remark-heading-id";
 import rehypeRaw from "rehype-raw";
 import { load } from "js-yaml";
+import useGlobalContext from "./useGlobalContext";
+
+const ErrorPage = (err) => {
+  return "# Ops, deu ruim\n\n" + err.message;
+};
 
 const useMarkdown = (page) => {
   const [post, setPost] = useState("");
   const language = useLanguage();
+  const { setPage } = useGlobalContext();
 
   useEffect(() => {
     import(`../pages/${page}/content/index.${language}.md`)
@@ -20,14 +26,16 @@ const useMarkdown = (page) => {
         fetch(res.default)
           .then((res) => res.text())
           .then((res) => setPost(res))
-          .catch((err) => console.log(err));
+          .catch((err) => setPost(ErrorPage(err)));
       })
-      .catch((err) => console.log(err));
-  });
+      .catch((err) => setPost(ErrorPage(err)));
+  }, [page, language]);
 
-  const yaml = post.split("<!--\n")[1]?.split("\n-->")[0];
-  // eslint-disable-next-line no-unused-vars
-  const config = load(yaml);
+  useEffect(() => {
+    const yaml = post.split("<!--\n")[1]?.split("\n-->")[0];
+    const config = load(yaml);
+    setPage(config);
+  }, [post, setPage]);
 
   return (
     <div className="Page__markdown">

@@ -3,10 +3,9 @@ import Header from "../Header";
 import useGlobalContext from "../../hooks/useGlobalContext";
 import { useLocation } from "react-router-dom";
 import { useEffect } from "react";
-import { PageProvider } from "../../contexts/PageContext";
 
 const Page = ({ children }) => {
-  const { collapse } = useGlobalContext();
+  const { collapse, page } = useGlobalContext();
 
   const { pathname } = useLocation();
 
@@ -15,12 +14,10 @@ const Page = ({ children }) => {
   }, [pathname]);
 
   return (
-    <PageProvider>
-      <div className={`Page ${collapse ? "amplied" : ""}`}>
-        <Header title={"Título"} />
-        <div className="Page__content">{children}</div>
-      </div>
-    </PageProvider>
+    <div className={`Page ${collapse ? "amplied" : ""}`}>
+      <Header title={page.title} />
+      <div className="Page__content">{children}</div>
+    </div>
   );
 };
 

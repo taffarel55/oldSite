@@ -6,14 +6,14 @@ const useGlobalProvider = () => {
   const pages = usePages();
   const [collapse, setCollapse] = useState(false);
 
-  // const getPage = (path) => pages.find((p) => p.link === path);
-  // const newPage = (path) => setPage(getPage(path));
-  // const [page, setPage] = useState(getPage(window.location.pathname));
+  const [page, setPage] = useState("teste");
 
   return {
     collapse,
     setCollapse,
     pages,
+    page,
+    setPage,
   };
 };
 

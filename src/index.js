@@ -33,7 +33,7 @@ ReactDOM.render(
   root
 );
 
-
 // TODO: Componente de carregando o post
 // TODO: Sombra e efeitos nos Cards
 // TODO: Tratamento de erros (leitura de markdown, yaml, ...)
+// TODO: Tentar diminuir o número de renderizações
