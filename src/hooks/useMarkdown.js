@@ -13,6 +13,7 @@ import { load } from "js-yaml";
 const useMarkdown = (page) => {
   const [post, setPost] = useState("");
   const language = useLanguage();
+
   useEffect(() => {
     import(`../pages/${page}/content/index.${language}.md`)
       .then((res) => {
@@ -25,9 +26,8 @@ const useMarkdown = (page) => {
   });
 
   const yaml = post.split("<!--\n")[1]?.split("\n-->")[0];
+  // eslint-disable-next-line no-unused-vars
   const config = load(yaml);
-
-  // console.log(config);
 
   return (
     <div className="Page__markdown">

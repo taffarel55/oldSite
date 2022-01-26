@@ -18,7 +18,8 @@ const MenuBar = () => {
 };
 
 const MenuItem = ({ item: { title, link, img } }) => {
-  const { page } = useGlobalContext();
+  // const { page } = useGlobalContext();
+  const page = { link: "/" };
 
   return (
     <Link to={link}>

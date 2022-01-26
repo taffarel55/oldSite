@@ -3,22 +3,24 @@ import Header from "../Header";
 import useGlobalContext from "../../hooks/useGlobalContext";
 import { useLocation } from "react-router-dom";
 import { useEffect } from "react";
+import { PageProvider } from "../../contexts/PageContext";
 
 const Page = ({ children }) => {
-  const { collapse, page, newPage } = useGlobalContext();
+  const { collapse } = useGlobalContext();
 
   const { pathname } = useLocation();
 
   useEffect(() => {
-    newPage(pathname);
     // eslint-disable-next-line
   }, [pathname]);
 
   return (
-    <div className={`Page ${collapse ? "amplied" : ""}`}>
-      <Header title={page.title} />
-      <div className="Page__content">{children}</div>
-    </div>
+    <PageProvider>
+      <div className={`Page ${collapse ? "amplied" : ""}`}>
+        <Header title={"Título"} />
+        <div className="Page__content">{children}</div>
+      </div>
+    </PageProvider>
   );
 };
 
