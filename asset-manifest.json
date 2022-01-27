@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.5cfdd822.css",
-    "main.js": "/static/js/main.6cc86961.js",
+    "main.css": "/static/css/main.3bdd7fd5.css",
+    "main.js": "/static/js/main.03441c8f.js",
     "static/js/963.b4982379.chunk.js": "/static/js/963.b4982379.chunk.js",
     "static/js/739.35b5979f.chunk.js": "/static/js/739.35b5979f.chunk.js",
     "static/js/853.4a20cece.chunk.js": "/static/js/853.4a20cece.chunk.js",
-    "static/js/17.633bad99.chunk.js": "/static/js/17.633bad99.chunk.js",
+    "static/js/17.1c4f077c.chunk.js": "/static/js/17.1c4f077c.chunk.js",
     "static/js/784.183b7faa.chunk.js": "/static/js/784.183b7faa.chunk.js",
     "static/media/KaTeX_AMS-Regular.ttf": "/static/media/KaTeX_AMS-Regular.853be92419a6c3766b9a.ttf",
     "static/media/KaTeX_Main-Regular.ttf": "/static/media/KaTeX_Main-Regular.9eba1d77abcf2aa6e94e.ttf",
@@ -65,7 +65,7 @@
     "static/media/KaTeX_Size1-Regular.woff2": "/static/media/KaTeX_Size1-Regular.6eec866c69313624be60.woff2",
     "static/media/KaTeX_Size2-Regular.woff2": "/static/media/KaTeX_Size2-Regular.2960900c4f271311eb36.woff2",
     "static/media/KaTeX_Size4-Regular.woff2": "/static/media/KaTeX_Size4-Regular.e418bf257af1052628d8.woff2",
-    "static/media/index.pt-br.md": "/static/media/index.pt-br.c045ac8b727f33409cb1.md",
+    "static/media/index.pt-br.md": "/static/media/index.pt-br.12897157d4a475532a1b.md",
     "static/media/KaTeX_Size3-Regular.woff": "/static/media/KaTeX_Size3-Regular.7947224e8a9914fa332b.woff",
     "static/media/KaTeX_Size3-Regular.woff2": "/static/media/KaTeX_Size3-Regular.e1951519f6f0596f7356.woff2",
     "static/media/book.svg": "/static/media/book.30f7c83dd1a183ee44ff0d1061c655cd.svg",
@@ -75,11 +75,11 @@
     "static/media/profile.svg": "/static/media/profile.a4e20b80d17d42441f043a019b925d0d.svg",
     "static/media/house.svg": "/static/media/house.9739402f2d312c10446f8f1b198b67a8.svg",
     "static/media/folder.svg": "/static/media/folder.b5af42992bd9fda3a23e654bfb88571e.svg",
-    "main.5cfdd822.css.map": "/static/css/main.5cfdd822.css.map",
-    "main.6cc86961.js.map": "/static/js/main.6cc86961.js.map"
+    "main.3bdd7fd5.css.map": "/static/css/main.3bdd7fd5.css.map",
+    "main.03441c8f.js.map": "/static/js/main.03441c8f.js.map"
   },
   "entrypoints": [
-    "static/css/main.5cfdd822.css",
-    "static/js/main.6cc86961.js"
+    "static/css/main.3bdd7fd5.css",
+    "static/js/main.03441c8f.js"
   ]
 }
