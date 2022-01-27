@@ -17,15 +17,32 @@ const MenuBar = () => {
   );
 };
 
-const MenuItem = ({ item: { title, link, img } }) => {
+const MenuItem = ({ item: { title, link, img, subpages } }) => {
   const { page } = useGlobalContext();
 
   return (
-    <Link to={link}>
-      <div className={`MenuItem ${page.link === link ? "active" : ""}`}>
-        <img src={img} alt={Object.keys({ img })[0]}></img>
-        <p>{title}</p>
-      </div>
+    <>
+      <Link to={link}>
+        <div className={`MenuItem ${page.link === link ? "active" : ""}`}>
+          <img src={img} alt={Object.keys({ img })[0]}></img>
+          <p>{title}</p>
+        </div>
+      </Link>
+      {page.link === link && (
+        <div className="MenuItem__subpages">
+          {subpages?.map((subpage, index) => {
+            return <SubPageItem key={index} item={subpage} parentLink={link} />;
+          })}
+        </div>
+      )}
+    </>
+  );
+};
+
+const SubPageItem = ({ parentLink, item: { title, slug, category } }) => {
+  return (
+    <Link to={`${parentLink}/${category}`}>
+      <div className="SubPageItem">{category}</div>
     </Link>
   );
 };

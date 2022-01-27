@@ -28,6 +28,12 @@
   opacity: 0;
 }
 
+.MenuBar.collapsed .MenuItem__subpages {
+  visibility: hidden;
+  opacity: 0;
+  height: 0;
+}
+
 .MenuBar__button {
   content: url("../../icons/left-arrow.svg");
   padding: 10px;
@@ -70,6 +76,30 @@
   box-shadow: inset 8px 0 0px var(--neutral-white);
 }
 
+.MenuItem__subpages {
+  transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.MenuItem__subpages a {
+  text-decoration-line: none;
+  color: var(--neutral-20);
+  line-height: 1.7rem;
+  font-size: 1.7rem;
+}
+
+.SubPageItem {
+  padding-left: 32px;
+  white-space: nowrap;
+}
+
+.SubPageItem::before {
+  content: "├──  ";
+}
+
+.MenuItem__subpages a:last-child .SubPageItem::before {
+  content: "└──  ";
+}
+
 @media (max-width: 600px) {
   .MenuBar,
   .MenuBar.collapsed {
@@ -83,7 +113,8 @@
     max-height: 32px;
   }
 
-  .MenuBar.collapsed .MenuItem {
+  .MenuBar.collapsed .MenuItem,
+  .MenuBar.collapsed .MenuItem__subpages {
     visibility: hidden;
     opacity: 0;
   }

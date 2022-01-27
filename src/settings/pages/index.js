@@ -13,9 +13,21 @@ const Settings = () => {
       link: "/blog",
       img: book,
       subpages: [
-        { title: "Categoria 1", atributo: "valor 1", slug: "categoria-1" },
-        { title: "Categoria 2", atributo: "valor 2", slug: "categoria-2" },
-        { title: "Categoria 3", atributo: "valor 3", slug: "categoria-3" },
+        {
+          title: "Título 1",
+          slug: "post-name",
+          category: "Eletrônica",
+        },
+        {
+          title: "Título 2",
+          slug: "short-name",
+          category: "Música",
+        },
+        {
+          title: "Título 3",
+          slug: "with-hyphens",
+          category: "Arte",
+        },
       ],
     },
     { title: "Contato", link: "/contact", img: contact },
