@@ -93,11 +93,11 @@
 }
 
 .SubPageItem::before {
-  content: "├──  ";
+  content: "├─  ";
 }
 
 .MenuItem__subpages a:last-child .SubPageItem::before {
-  content: "└──  ";
+  content: "└─  ";
 }
 
 @media (max-width: 600px) {
