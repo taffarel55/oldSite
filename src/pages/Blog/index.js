@@ -4,6 +4,7 @@ import Page from "../../components/Page";
 import useMarkdown from "../../hooks/useMarkdown";
 import Carousel from "../../components/Carousel";
 import useGlobalContext from "../../hooks/useGlobalContext";
+import { useParams } from "react-router-dom";
 
 const Blog = () => {
   useMarkdown("Blog");
@@ -26,4 +27,13 @@ const Blog = () => {
   );
 };
 
+const SubPageBlog = () => {
+  const { category, slug } = useParams();
+  const post = useMarkdown(`Blog/subpages/${category}/${slug}`);
+
+  return <Page>{post}</Page>;
+};
+
 export default Blog;
+
+export { SubPageBlog };

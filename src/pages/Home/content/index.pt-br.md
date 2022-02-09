@@ -20,3 +20,4 @@ date: 22-10-2012
 - [ ] Se necessário, componente de carregando o post
 - [ ] Tratamento de erros (leitura de markdown, yaml, ...)
 - [ ] Tentar diminuir o número de renderizações e otimizar
+- [ ] Centralizar os alts das imagens

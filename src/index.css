@@ -12,6 +12,14 @@ html {
   background-color: var(--neutral-90);
 }
 
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none !important;
+  color: inherit;
+}
+
 .App {
   display: flex;
   background-color: var(--neutral-90);
@@ -151,6 +159,7 @@ a {
   --neutral-white: #ffffff;
   --colorful-red: #f83636;
   --colorful-green: #1ab060;
+  --colorful-yellow: #ffbd2e;
 }
 
 /* Effect Styles */

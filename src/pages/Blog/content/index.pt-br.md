@@ -5,51 +5,41 @@ author: taffarel55
 date: 22-10-2012
 
 subpages:
+    - Computação:
+        - Perceptron:
+            slug: perceptron
+            author:
+                src: 'https://avatars.githubusercontent.com/u/18634201?v=4'
+                user: taffarel55
+            time: 25
+            img: logo.png
+        - Microcontrolador e filtro:
+            slug: perceptron
+            author:
+                src: 'https://avatars.githubusercontent.com/u/18634201?v=4'
+                user: taffarel55
+            time: 25
+            img: logo.png
+        - Componentes de 3ª ordem:
+            slug: arquitetura
+            author:
+                src: 'https://avatars.githubusercontent.com/u/18634201?v=4'
+                user: taffarel55
+            time: 25
+            img: logo.png
     - Eletrônica:
         - Flipflop JK:
             slug: flipflop
-            img:
-                src: https://source.unsplash.com/random
-                alt: Maurício
             author:
                 src: 'https://avatars.githubusercontent.com/u/18634201?v=4'
                 user: taffarel55
             time: 25
+            img: logo.jpg
         - Arquitetura de 8 bits:
             slug: arquitetura
-            img:
-                src: 'https://source.unsplash.com/random'
-                alt: Maurício
             author:
                 src: 'https://avatars.githubusercontent.com/u/18634201?v=4'
                 user: taffarel55
             time: 25
-        - Outro com texto grande aqui pra testar css:
-            slug: texto-grande
-            img:
-                src: 'https://source.unsplash.com/random'
-                alt: Maurício
-            author:
-                src: 'https://avatars.githubusercontent.com/u/18634201?v=4'
-                user: taffarel55
-            time: 25
-    - Computação:
-        - Flipflop JK:
-            slug: flipflop
-            img:
-                src: https://source.unsplash.com/random
-                alt: Maurício
-            author:
-                src: 'https://avatars.githubusercontent.com/u/18634201?v=4'
-                user: taffarel55
-            time: 25
-        - Arquitetura de 8 bits:
-            slug: arquitetura
-            img:
-                src: 'https://source.unsplash.com/random'
-                alt: Maurício
-            author:
-                src: 'https://avatars.githubusercontent.com/u/18634201?v=4'
-                user: taffarel55
-            time: 25
+            img: logo.jpg
 -->

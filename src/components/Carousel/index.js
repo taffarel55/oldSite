@@ -9,6 +9,7 @@ const Carousel = ({ title, items }) => {
         {items.map((card, index) => (
           <SmallCard
             key={index}
+            category={title}
             title={Object.keys(card)[0]}
             details={Object.values(card)[0]}
           />
