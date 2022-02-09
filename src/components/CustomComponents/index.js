@@ -2,6 +2,7 @@ import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 import { vscDarkPlus } from "react-syntax-highlighter/dist/esm/styles/prism";
 import { SmallCard } from "../Cards";
 import "./index.css";
+import Mermaid from "../Mermaid";
 
 const CustomComponents = ({
   node,
@@ -78,6 +79,9 @@ const CustomComponents = ({
         ></iframe>
       </div>
     );
+  }
+  if (type === "mermaid") {
+    return <Mermaid code={children[0]} />;
   }
   if (type === "SmallCard") {
     return (

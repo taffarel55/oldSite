@@ -21,6 +21,35 @@ date: 22-10-2012
 
 <del type="falstad" src="https://tinyurl.com/y9xzw9ms"></del>
 
+### Mermaid.js
+
+<del type="mermaid">
+pie
+"Dogs" : 20
+"Cats" : 85
+"Rats" : 15
+</del>
+
+<del type="mermaid">
+stateDiagram-v2
+    [*] --> Still
+    Still --> [*]
+    Still --> Moving
+    Moving --> Still
+    Moving --> Crash
+    Crash --> [*]
+            
+</del>
+
+<del type="mermaid">
+graph TD
+A[Christmas] -->|Get money| B(Go shopping)
+B --> C{Let me think}
+C -->|One| D[Laptop]
+C -->|Two| E[iPhone]
+C -->|Three| F[fa:fa-car Car] 
+</del>
+
 ### Códigos
 
 ```js

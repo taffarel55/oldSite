@@ -16,6 +16,7 @@ const Page = ({ children }) => {
   return (
     <div className={`Page ${collapse ? "amplied" : ""}`}>
       <Header title={page.title} />
+
       <div className="Page__content">{children}</div>
     </div>
   );
