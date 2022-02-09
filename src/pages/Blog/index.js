@@ -27,13 +27,14 @@ const Blog = () => {
   );
 };
 
-const SubPageBlog = () => {
+const SubPage = () => {
   const { category, slug } = useParams();
-  const post = useMarkdown(`Blog/subpages/${category}/${slug}`);
+  const { page } = useGlobalContext();
+  const post = useMarkdown(`${page?.title}/subpages/${category}/${slug}`);
 
   return <Page>{post}</Page>;
 };
 
 export default Blog;
 
-export { SubPageBlog };
+export { SubPage };

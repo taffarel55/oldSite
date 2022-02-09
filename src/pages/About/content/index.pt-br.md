@@ -5,11 +5,23 @@ author: taffarel55
 date: 22-10-2012
 -->
 
-### My Great Heading {#custom-id}
+### Incorporação do Desmos
 
-<a>https://www.youtube.com/embed/9bZkp7q19f0</a>
+<del type="desmos" id="efdpoxwc1e"></del>
+
+### Incorporação do Youtube
 
 <del type="youtube" id="SUjrZ84YNSo"></del>
+
+### Incorporação de Circuitos Eletrônicos
+
+<del type="circuit" id="jogo-da-vida"></del>
+
+### Incorporação de Circuitos Analógicos
+
+<del type="falstad" src="https://tinyurl.com/y9xzw9ms"></del>
+
+### Códigos
 
 ```js
 <div className="Carousel">
@@ -27,7 +39,15 @@ date: 22-10-2012
 </div>
 ```
 
-😄 😸 😺 😏 ⛄ 😭 🔉
+### Emojis
+
+<center>
+
+## 😄 😸 😺 😏 ⛄ 😭 🔉
+
+</center>
+
+### Tabelas
 
 | asd | asd | asd |
 | :-: | :-: | :-: |
@@ -36,8 +56,10 @@ date: 22-10-2012
 | asd | asd | asd |
 | asd | asd | asd |
 
+### Matemática
+
 $$
-L = \frac{1}{2} \rho v^2 S C_L\tag{1}
+f(x) = \int_{-\infty}^\infty \hat f(\xi)\,e^{2 \pi i \xi x} \,d\xi\tag{1}
 $$
 
 # Heading level 1
@@ -202,7 +224,7 @@ Try to put a blank line before...
             <title>Test</title>
           </head>
 
-![Tux, the Linux mascot](https://raw.githubusercontent.com/taffarel55/taffarel55.github.io/main/src/pages/About/imgs/book.svg)
+![Tux, the Linux mascot](https://raw.githubusercontent.com/taffarel55/taffarel55.github.io/main/src/pages/About/assets/book.svg)
 
 1. First item
 2. Second item

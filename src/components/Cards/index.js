@@ -1,29 +1,45 @@
-import "./index.css";
-import accessTime from "../../icons/access-time.svg";
-import useGlobalContext from "../../hooks/useGlobalContext";
 import { Link } from "react-router-dom";
+import useGlobalContext from "../../hooks/useGlobalContext";
+import accessTime from "../../icons/access-time.svg";
+import "./index.css";
+import { useEffect, useState } from "react";
 
-const SmallCard = ({ category, title, details: { author, time, img } }) => {
+const SmallCard = ({
+  title,
+  details: { author, time, img, slug },
+  slugCategory,
+}) => {
   const {
-    page: { link },
+    page: { link, title: titleCategory },
   } = useGlobalContext();
 
+  const [userImage, setUserImage] = useState({});
+
+  useEffect(() => {
+    const fetchApi = async () => {
+      const response = await fetch(`https://api.github.com/users/${author}`);
+      const data = await response.json();
+      setUserImage(data.avatar_url);
+    };
+    fetchApi();
+  }, [author]);
+
   return (
-    <Link to={`${link}/${category}/${title}`}>
+    <Link to={`${link}/${slugCategory}/${slug}`}>
       <div className="SmallCard">
         <img
           className="SmallCard__image"
-          src={require(`../../pages/${"Blog"}/subpages/${category}/${title}/imgs/${img}`)}
+          src={require(`../../pages/${titleCategory}/subpages/${slugCategory}/${slug}/imgs/${img}`)}
           alt={title}
         ></img>
 
         <div className="SmallCard__description">
           <img
             className="SmallCard__description--author"
-            src={author.src}
-            alt={author.user}
+            src={userImage}
+            alt={author}
           ></img>
-          <p className="legend">{"@" + author.user}</p>
+          <p className="legend">{"@" + author}</p>
           <h4 className="SmallCard__description--title">{title}</h4>
           <div className="SmallCard__description--time">
             <img src={accessTime} alt="Clock icon"></img>
