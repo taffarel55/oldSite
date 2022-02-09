@@ -1,7 +1,7 @@
 import "./index.css";
 import accessTime from "../../icons/access-time.svg";
 
-const SmallCard = ({ details: { img, author, time } }) => (
+const SmallCard = ({ title, details: { img, author, time } }) => (
   <div className="SmallCard">
     <img className="SmallCard__image" src={img.src} alt={img.alt}></img>
 
@@ -12,7 +12,7 @@ const SmallCard = ({ details: { img, author, time } }) => (
         alt={author.user}
       ></img>
       <p className="legend">{"@" + author.user}</p>
-      <h4 className="SmallCard__description--title">Title</h4>
+      <h4 className="SmallCard__description--title">{title}</h4>
       <div className="SmallCard__description--time">
         <img src={accessTime} alt="Clock icon"></img>
         <p className="legend">{`${time} min`}</p>

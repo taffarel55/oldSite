@@ -7,6 +7,7 @@ const useGlobalProvider = () => {
   const [collapse, setCollapse] = useState(false);
 
   const [page, setPage] = useState("");
+  const [subpages, setSubpages] = useState({});
 
   return {
     collapse,
@@ -14,6 +15,8 @@ const useGlobalProvider = () => {
     pages,
     page,
     setPage,
+    subpages,
+    setSubpages,
   };
 };
 

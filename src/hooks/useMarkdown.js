@@ -25,13 +25,13 @@ const ErrorPage = (err) => {
   `;
 };
 
-const useMarkdown = (page) => {
+const useMarkdown = (pageName) => {
   const [post, setPost] = useState("");
   const language = useLanguage();
   const { setPage } = useGlobalContext();
 
   useEffect(() => {
-    import(`../pages/${page}/content/index.${language}.md`)
+    import(`../pages/${pageName}/content/index.${language}.md`)
       .then((res) => {
         fetch(res.default)
           .then((res) => res.text())
@@ -39,7 +39,7 @@ const useMarkdown = (page) => {
           .catch((err) => setPost(ErrorPage(err)));
       })
       .catch((err) => setPost(ErrorPage(err)));
-  }, [page, language]);
+  }, [pageName, language]);
 
   useEffect(() => {
     const yaml = post.split("<!--\n")[1]?.split("\n-->")[0];

@@ -9,6 +9,8 @@ date: 22-10-2012
 
 <a>https://www.youtube.com/embed/9bZkp7q19f0</a>
 
+<del type="youtube" id="SUjrZ84YNSo"></del>
+
 😄 😸 😺 😏 ⛄ 😭 🔉
 
 | asd | asd | asd |

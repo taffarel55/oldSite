@@ -1,17 +1,21 @@
 import "./index.css";
 import { SmallCard } from "../Cards";
 
-const Carousel = ({ title, qtd, obj }) => (
-  <div className="Carousel">
-    <h3 className="Carousel__title">{title}</h3>
-    <div className="Carousel__items">
-      {Array(qtd)
-        .fill(obj)
-        .map((card, index) => (
-          <SmallCard key={index} details={card} />
+const Carousel = ({ title, items }) => {
+  return (
+    <div className="Carousel">
+      <h3 className="Carousel__title">{title}</h3>
+      <div className="Carousel__items">
+        {items.map((card, index) => (
+          <SmallCard
+            key={index}
+            title={Object.keys(card)[0]}
+            details={Object.values(card)[0]}
+          />
         ))}
+      </div>
     </div>
-  </div>
-);
+  );
+};
 
 export default Carousel;

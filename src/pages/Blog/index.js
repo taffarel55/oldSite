@@ -3,28 +3,25 @@ import "../../settings/markdown/index.css";
 import Page from "../../components/Page";
 import useMarkdown from "../../hooks/useMarkdown";
 import Carousel from "../../components/Carousel";
-
-const obj = {
-  img: {
-    src: "https://source.unsplash.com/random",
-    alt: "Maurício",
-  },
-  author: {
-    src: "https://avatars.githubusercontent.com/u/18634201?v=4",
-    user: "taffarel55",
-  },
-  time: 25,
-};
+import useGlobalContext from "../../hooks/useGlobalContext";
 
 const Blog = () => {
-  const post = useMarkdown("Blog");
+  useMarkdown("Blog");
+  const {
+    page: { subpages },
+  } = useGlobalContext();
 
   return (
     <Page>
-      <Carousel title={"Categoria 1"} qtd={8} obj={obj} />
-      <Carousel title={"Categoria 2"} qtd={8} obj={obj} />
-      <Carousel title={"Categoria 3"} qtd={8} obj={obj} />
-      {post}
+      {subpages?.map((subpage, index) => {
+        return (
+          <Carousel
+            key={index}
+            title={Object.keys(subpage)[0]}
+            items={Object.values(subpage)[0]}
+          />
+        );
+      })}
     </Page>
   );
 };
