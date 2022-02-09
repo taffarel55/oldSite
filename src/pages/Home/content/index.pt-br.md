@@ -10,14 +10,13 @@ date: 22-10-2012
 #### O que falta:
 
 - [ ] Revisar todos os estilos do markdown
-- [ ] Criar componentes React 
-    - [ ] Criar um componente que consuma api do github pra pegar repositórios
+- [ ] Criar componentes React
+  - [ ] Criar um componente que consuma api do github pra pegar repositórios
 - [ ] Adicionar componentes Reacts no markdown
 - [ ] Adicionar mais recursos legais ao markdown
 - [ ] Remover todos os index's das pages e componentizar page passando como atributo a página
-- [ ] Colocar uma margem no post de uma página pra ela não ocupar 100% em telas grandes
+- [x] Colocar uma margem no post de uma página pra ela não ocupar 100% em telas grandes
 - [ ] Sombra e efeitos nos Cards
 - [ ] Se necessário, componente de carregando o post
 - [ ] Tratamento de erros (leitura de markdown, yaml, ...)
 - [ ] Tentar diminuir o número de renderizações e otimizar
-

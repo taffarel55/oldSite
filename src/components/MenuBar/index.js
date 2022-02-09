@@ -28,7 +28,7 @@ const MenuItem = ({ item: { title, link, img, subpages } }) => {
           <p>{title}</p>
         </div>
       </Link>
-      {page.link === link && (
+      {page.link === link && subpages && (
         <div className="MenuItem__subpages">
           {subpages?.map((subpage, index) => {
             return <SubPageItem key={index} item={subpage} parentLink={link} />;

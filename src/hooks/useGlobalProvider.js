@@ -6,7 +6,7 @@ const useGlobalProvider = () => {
   const pages = usePages();
   const [collapse, setCollapse] = useState(false);
 
-  const [page, setPage] = useState("teste");
+  const [page, setPage] = useState("");
 
   return {
     collapse,

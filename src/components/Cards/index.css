@@ -1,11 +1,11 @@
 .SmallCard {
-  width: 240px;
+  width: 200px;
 }
 
 .SmallCard__image {
   display: block;
-
   height: 160px;
+  width: 200px;
   object-fit: cover;
   border-radius: 1.6rem 1.6rem 0 0;
 }

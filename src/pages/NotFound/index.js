@@ -2,10 +2,9 @@ import "./index.css";
 import Page from "../../components/Page";
 import useMarkdown from "../../hooks/useMarkdown";
 
-const Home = () => {
-  const post = useMarkdown("Home");
-
+const NotFound = () => {
+  const post = useMarkdown("NotFound");
   return <Page>{post}</Page>;
 };
 
-export default Home;
+export default NotFound;

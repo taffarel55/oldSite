@@ -17,6 +17,11 @@
   }
 } */
 
+.Page__markdown {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
 .Page__markdown p {
   line-height: 2rem;
   margin-bottom: 2rem;
