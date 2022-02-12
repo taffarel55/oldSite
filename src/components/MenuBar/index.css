@@ -113,7 +113,7 @@
     max-height: 32px;
   }
 
-  .MenuBar.collapsed .MenuItem,
+  .MenuBar.collapsed a,
   .MenuBar.collapsed .MenuItem__subpages {
     visibility: hidden;
     opacity: 0;
