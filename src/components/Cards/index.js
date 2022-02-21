@@ -3,6 +3,7 @@ import useGlobalContext from "../../hooks/useGlobalContext";
 import accessTime from "../../icons/access-time.svg";
 import "./index.css";
 import { useEffect, useState } from "react";
+import profile from "../../icons/profile.svg";
 
 const SmallCard = ({
   title,
@@ -19,7 +20,8 @@ const SmallCard = ({
     const fetchApi = async () => {
       const response = await fetch(`https://api.github.com/users/${author}`);
       const data = await response.json();
-      setUserImage(data.avatar_url);
+      // TODO: Trocar esta imagem
+      setUserImage(data.avatar_url || profile);
     };
     fetchApi();
   }, [author]);

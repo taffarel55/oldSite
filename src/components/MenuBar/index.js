@@ -39,9 +39,9 @@ const MenuItem = ({ item: { title, link, img, subpages } }) => {
   );
 };
 
-const SubPageItem = ({ parentLink, item: { title, slug, category } }) => {
+const SubPageItem = ({ parentLink, item: { slug, category } }) => {
   return (
-    <Link to={`${parentLink}/${category}`}>
+    <Link to={`${parentLink}/${slug}`}>
       <div className="SubPageItem">{category}</div>
     </Link>
   );

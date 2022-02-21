@@ -5,6 +5,7 @@ import contact from "../../icons/contact.svg";
 import profile from "../../icons/profile.svg";
 
 const Settings = () => {
+  // TODO: Mudar pra YAML
   const pages = [
     { title: "Início", link: "/", img: house },
     { title: "Projetos", link: "/projects", img: folder },
@@ -14,19 +15,20 @@ const Settings = () => {
       img: book,
       subpages: [
         {
-          title: "Título 1",
-          slug: "post-name",
+          slug: "computing",
+          category: "Computação",
+        },
+        {
+          slug: "control-systems",
+          category: "Sistemas de controle",
+        },
+        {
+          slug: "electric-machines",
+          category: "Máquinas Elétricas",
+        },
+        {
+          slug: "electronic",
           category: "Eletrônica",
-        },
-        {
-          title: "Título 2",
-          slug: "short-name",
-          category: "Música",
-        },
-        {
-          title: "Título 3",
-          slug: "with-hyphens",
-          category: "Arte",
         },
       ],
     },

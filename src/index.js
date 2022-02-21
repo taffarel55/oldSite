@@ -5,11 +5,9 @@ import MenuBar from "./components/MenuBar";
 import { GlobalProvider } from "./contexts/GlobalContext";
 import "./index.css";
 import About from "./pages/About";
-import Blog from "./pages/Blog";
-import { SubPage } from "./pages/Blog";
+import Blog, { SubPage } from "./pages/Blog";
 import Contact from "./pages/Contact";
 import Home from "./pages/Home";
-import Projects from "./pages/Projects";
 import NotFound from "./pages/NotFound";
 
 const root = document.getElementById("root");
@@ -22,7 +20,7 @@ ReactDOM.render(
           <MenuBar />
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/projects" element={<Projects />} />
+            <Route path="/projects" element={<NotFound />} />
             <Route path="/blog" element={<Blog />} />
             <Route path="/blog/:category/:slug" element={<SubPage />} />
             <Route path="/contact" element={<Contact />} />

@@ -172,7 +172,7 @@ a {
   box-shadow: 32px 32px 32px rgba(0, 0, 0, 0.16);
 }
 
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
   h1 {
     font-size: 2.1rem;
     line-height: 3.2rem;
@@ -202,4 +202,4 @@ a {
     font-size: 0.8rem;
     line-height: 1rem;
   }
-}
+} */
