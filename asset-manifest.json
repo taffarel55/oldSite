@@ -1,8 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.6d07bfe0.css",
-    "main.js": "/static/js/main.53609b13.js",
-    "static/media/logo.jpg": "/static/media/logo.1eefe0b3e1341cd7e9e9.jpg",
+    "main.css": "/static/css/main.962184a9.css",
+    "main.js": "/static/js/main.b1e7b1c3.js",
+    "static/js/174.0c181aba.chunk.js": "/static/js/174.0c181aba.chunk.js",
+    "static/js/994.5728e766.chunk.js": "/static/js/994.5728e766.chunk.js",
+    "static/js/986.ccdb1688.chunk.js": "/static/js/986.ccdb1688.chunk.js",
+    "static/js/813.9d0a4a39.chunk.js": "/static/js/813.9d0a4a39.chunk.js",
+    "static/js/70.7a2865cd.chunk.js": "/static/js/70.7a2865cd.chunk.js",
+    "static/js/828.eb3f2e22.chunk.js": "/static/js/828.eb3f2e22.chunk.js",
+    "static/js/26.98d9c626.chunk.js": "/static/js/26.98d9c626.chunk.js",
+    "static/js/337.ffb2d391.chunk.js": "/static/js/337.ffb2d391.chunk.js",
+    "static/js/350.9d8f82ed.chunk.js": "/static/js/350.9d8f82ed.chunk.js",
+    "static/js/892.696e69ae.chunk.js": "/static/js/892.696e69ae.chunk.js",
+    "static/js/572.42082fc1.chunk.js": "/static/js/572.42082fc1.chunk.js",
+    "static/js/550.fbff34a4.chunk.js": "/static/js/550.fbff34a4.chunk.js",
+    "static/js/83.3f904534.chunk.js": "/static/js/83.3f904534.chunk.js",
+    "static/js/185.9746018a.chunk.js": "/static/js/185.9746018a.chunk.js",
+    "static/js/648.310f49d5.chunk.js": "/static/js/648.310f49d5.chunk.js",
     "static/media/logo.png": "/static/media/logo.c614b14e58b35d21f49b.png",
     "static/media/KaTeX_AMS-Regular.ttf": "/static/media/KaTeX_AMS-Regular.853be92419a6c3766b9a.ttf",
     "static/media/KaTeX_Main-Regular.ttf": "/static/media/KaTeX_Main-Regular.9eba1d77abcf2aa6e94e.ttf",
@@ -17,7 +31,7 @@
     "static/media/KaTeX_AMS-Regular.woff2": "/static/media/KaTeX_AMS-Regular.73ea273a72f4aca30ca5.woff2",
     "static/media/KaTeX_Typewriter-Regular.ttf": "/static/media/KaTeX_Typewriter-Regular.c5c02d763c89380dcb4e.ttf",
     "static/media/KaTeX_Main-Regular.woff2": "/static/media/KaTeX_Main-Regular.f650f111a3b890d116f1.woff2",
-    "static/media/index.pt-br.md": "/static/media/index.pt-br.50163ae0d713821d7aaf.md",
+    "static/media/index.pt-br.md": "/static/media/index.pt-br.9469b49ccd737b26e0b4.md",
     "static/media/KaTeX_Main-Bold.woff2": "/static/media/KaTeX_Main-Bold.39890742bc957b368704.woff2",
     "static/media/KaTeX_SansSerif-Bold.ttf": "/static/media/KaTeX_SansSerif-Bold.5b49f4993ae22d7975b4.ttf",
     "static/media/KaTeX_SansSerif-Italic.ttf": "/static/media/KaTeX_SansSerif-Italic.b257a18c016f37ee4543.ttf",
@@ -73,11 +87,11 @@
     "static/media/profile.svg": "/static/media/profile.a4e20b80d17d42441f043a019b925d0d.svg",
     "static/media/house.svg": "/static/media/house.9739402f2d312c10446f8f1b198b67a8.svg",
     "static/media/folder.svg": "/static/media/folder.b5af42992bd9fda3a23e654bfb88571e.svg",
-    "main.6d07bfe0.css.map": "/static/css/main.6d07bfe0.css.map",
-    "main.53609b13.js.map": "/static/js/main.53609b13.js.map"
+    "main.962184a9.css.map": "/static/css/main.962184a9.css.map",
+    "main.b1e7b1c3.js.map": "/static/js/main.b1e7b1c3.js.map"
   },
   "entrypoints": [
-    "static/css/main.6d07bfe0.css",
-    "static/js/main.53609b13.js"
+    "static/css/main.962184a9.css",
+    "static/js/main.b1e7b1c3.js"
   ]
 }
