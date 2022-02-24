@@ -12,7 +12,8 @@ date: 22-10-2012
 - [x] Adicionar componentes Reacts no markdown
 - [x] Adicionar mais recursos legais ao markdown
 - [x] Colocar uma margem no post de uma página pra ela não ocupar 100% em telas grandes
-- [ ] Fazer o gerenciamento de páginas
+- [x] Fazer o gerenciamento de páginas
+- [ ] Criar página de categorias
 - [ ] Remover imagem dos autores do card
 - [ ] Revisar todos os estilos do markdown
 - [ ] Sombra e efeitos nos Cards

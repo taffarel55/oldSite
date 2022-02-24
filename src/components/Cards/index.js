@@ -31,7 +31,7 @@ const SmallCard = ({
       <div className="SmallCard">
         <img
           className="SmallCard__image"
-          src={require(`../../pages/${titleCategory}/subpages/${slugCategory}/${slug}/imgs/${img}`)}
+          src={require(`../../pages/${titleCategory}/subpages/${slugCategory}/${slug}/imgs/logo.png`)}
           alt={title}
         ></img>
 

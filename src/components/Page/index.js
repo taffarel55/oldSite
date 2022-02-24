@@ -3,8 +3,10 @@ import Header from "../Header";
 import useGlobalContext from "../../hooks/useGlobalContext";
 import { useLocation } from "react-router-dom";
 import { useEffect } from "react";
+import useMarkdown from "../../hooks/useMarkdown";
 
-const Page = ({ children }) => {
+const Page = ({ name, children }) => {
+  const post = useMarkdown(name);
   const { collapse, page } = useGlobalContext();
 
   const { pathname } = useLocation();
@@ -16,8 +18,10 @@ const Page = ({ children }) => {
   return (
     <div className={`Page ${collapse ? "amplied" : ""}`}>
       <Header title={page.title} />
-
-      <div className="Page__content">{children}</div>
+      <div className="Page__content">
+        {children}
+        {post}
+      </div>
     </div>
   );
 };

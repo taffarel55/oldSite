@@ -13,7 +13,7 @@ const Blog = () => {
   } = useGlobalContext();
 
   return (
-    <Page>
+    <Page name="Blog">
       {subpages?.map((subpage, index) => {
         return (
           <Carousel
@@ -27,14 +27,15 @@ const Blog = () => {
   );
 };
 
-const SubPage = () => {
-  const { category, slug } = useParams();
-  const { page } = useGlobalContext();
-  const post = useMarkdown(`${page?.title}/subpages/${category}/${slug}`);
-
-  return <Page>{post}</Page>;
+const BlogCategory = () => {
+  const { category } = useParams();
+  console.log(category);
+  return <div>Olá {category}</div>;
 };
 
-export default Blog;
+const BlogPost = () => {
+  const { category, slug } = useParams();
+  return <Page name={`Blog/subpages/${category}/${slug}`}></Page>;
+};
 
-export { SubPage };
+export { Blog, BlogPost, BlogCategory };

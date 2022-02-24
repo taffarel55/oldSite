@@ -253,7 +253,9 @@ Try to put a blank line before...
             <title>Test</title>
           </head>
 
-![Tux, the Linux mascot](https://raw.githubusercontent.com/taffarel55/taffarel55.github.io/main/src/pages/About/assets/book.svg)
+<!-- TODO: Corrigir imagem relativa -->
+
+![Tux, the Linux mascot](assets/book.svg)
 
 1. First item
 2. Second item

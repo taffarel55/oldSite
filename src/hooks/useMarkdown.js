@@ -24,13 +24,12 @@ const ErrorPage = (err) => {
 
 const useMarkdown = (pageName) => {
   const [post, setPost] = useState("");
-  const [loaded, setLoaded] = useState(false);
+  const [loading, setLoading] = useState(false);
   const language = useLanguage();
   const { setPage } = useGlobalContext();
 
   useEffect(() => {
-    setLoaded(false);
-    import(`../pages/${pageName}/content/index.${language}.md`)
+    import(`../pages/${pageName}/index.${language}.md`)
       .then((res) => {
         fetch(res.default)
           .then((res) => res.text())
@@ -45,13 +44,15 @@ const useMarkdown = (pageName) => {
   }, [pageName, language]);
 
   useEffect(() => {
+    setLoading(true);
     const yaml = post.split("<!--\n")[1]?.split("\n-->")[0];
     const config = load(yaml);
     setPage(config);
+    setLoading(false);
   }, [post, setPage]);
 
   return (
-    <div className={`Page__markdown ${loaded ? "" : "loading"}`}>
+    <div className={`Page__markdown ${loading ? "loading" : ""}`}>
       <ReactMarkdown
         children={post}
         remarkPlugins={[remarkMath, remarkGfm, remarkHeading, remarkShortcodes]}
