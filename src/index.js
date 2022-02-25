@@ -2,10 +2,10 @@ import React from "react";
 import ReactDOM from "react-dom";
 import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import MenuBar from "./components/MenuBar";
+import Page from "./components/Page";
 import { GlobalProvider } from "./contexts/GlobalContext";
 import "./index.css";
 import { Blog, BlogCategory, BlogPost } from "./pages/Blog";
-import Page from "./components/Page";
 
 const root = document.getElementById("root");
 

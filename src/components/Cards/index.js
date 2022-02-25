@@ -9,6 +9,7 @@ const SmallCard = ({
   title,
   details: { author, time, img, slug },
   slugCategory,
+  displayImage,
 }) => {
   const {
     page: { link, title: titleCategory },
@@ -17,6 +18,7 @@ const SmallCard = ({
   const [userImage, setUserImage] = useState({});
 
   useEffect(() => {
+    if (!displayImage) return;
     const fetchApi = async () => {
       const response = await fetch(`https://api.github.com/users/${author}`);
       const data = await response.json();
@@ -24,7 +26,7 @@ const SmallCard = ({
       setUserImage(data.avatar_url || profile);
     };
     fetchApi();
-  }, [author]);
+  }, [author, displayImage]);
 
   return (
     <Link to={`${link}/${slugCategory}/${slug}`}>
@@ -36,11 +38,13 @@ const SmallCard = ({
         ></img>
 
         <div className="SmallCard__description">
-          <img
-            className="SmallCard__description--author"
-            src={userImage}
-            alt={author}
-          ></img>
+          {displayImage && (
+            <img
+              className="SmallCard__description--author"
+              src={userImage}
+              alt={author}
+            ></img>
+          )}
           <p className="legend">{"@" + author}</p>
           <h4 className="SmallCard__description--title">{title}</h4>
           <div className="SmallCard__description--time">

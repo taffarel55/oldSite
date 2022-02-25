@@ -14,6 +14,7 @@ const Carousel = ({ title, items: { subpages, slug } }) => {
               title={Object.keys(card)[0]}
               details={Object.values(card)[0]}
               slugCategory={slug}
+              displayImage={false}
             />
           );
         })}

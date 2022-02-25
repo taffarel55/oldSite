@@ -10,6 +10,11 @@
 html {
   font-size: 62.5%;
   background-color: var(--neutral-90);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 a,
@@ -47,7 +52,6 @@ h6 {
 }
 
 h1 {
-  font-family: Open Sans;
   font-style: normal;
   font-weight: 600;
   font-size: 4.2rem;
@@ -55,7 +59,6 @@ h1 {
 }
 
 h2 {
-  font-family: Open Sans;
   font-style: normal;
   font-weight: 600;
   font-size: 3.2rem;
@@ -63,7 +66,6 @@ h2 {
 }
 
 h3 {
-  font-family: Open Sans;
   font-style: normal;
   font-weight: bold;
   font-size: 2.6rem;
@@ -71,7 +73,6 @@ h3 {
 }
 
 h4 {
-  font-family: Open Sans;
   font-style: normal;
   font-weight: bold;
   font-size: 1.8rem;
@@ -79,7 +80,6 @@ h4 {
 }
 
 h5 {
-  font-family: Open Sans;
   font-style: normal;
   font-weight: bold;
   font-size: 1.4rem;
@@ -87,7 +87,6 @@ h5 {
 }
 
 h6 {
-  font-family: Open Sans;
   font-style: normal;
   font-weight: bold;
   font-size: 1rem;
@@ -95,15 +94,13 @@ h6 {
 }
 
 p {
-  font-family: Open Sans;
   font-style: normal;
   font-weight: normal;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   line-height: 3.2rem;
 }
 
 p.legend {
-  font-family: Open Sans;
   font-style: normal;
   font-weight: normal;
   font-size: 1.4rem;
@@ -111,7 +108,6 @@ p.legend {
 }
 
 button.normal {
-  font-family: Open Sans;
   font-style: normal;
   font-weight: 600;
   font-size: 1.6rem;
@@ -119,7 +115,6 @@ button.normal {
 }
 
 button.small {
-  font-family: Open Sans;
   font-style: normal;
   font-weight: 600;
   font-size: 1.4rem;
@@ -127,7 +122,6 @@ button.small {
 }
 
 .small-font {
-  font-family: Open Sans;
   font-style: normal;
   font-weight: normal;
   font-size: 1.2rem;
@@ -135,7 +129,6 @@ button.small {
 }
 
 a {
-  font-family: Open Sans;
   font-style: normal;
   font-weight: normal;
   font-size: 1.4rem;

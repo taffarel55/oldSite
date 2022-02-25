@@ -1,4 +1,3 @@
-import "./index.css";
 import "../../settings/markdown/index.css";
 import Page from "../../components/Page";
 import useMarkdown from "../../hooks/useMarkdown";
@@ -29,8 +28,7 @@ const Blog = () => {
 
 const BlogCategory = () => {
   const { category } = useParams();
-  console.log(category);
-  return <div>Olá {category}</div>;
+  return <Page name={`Blog/subpages/${category}/content`}></Page>;
 };
 
 const BlogPost = () => {
