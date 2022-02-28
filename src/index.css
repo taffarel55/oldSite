@@ -27,7 +27,7 @@ a:active {
 
 .App {
   display: flex;
-  background-color: var(--neutral-90);
+  height: 100vh;
 }
 
 @media (max-width: 600px) {

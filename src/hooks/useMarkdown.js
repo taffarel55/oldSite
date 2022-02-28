@@ -29,6 +29,7 @@ const useMarkdown = (pageName) => {
   const { setPage } = useGlobalContext();
 
   useEffect(() => {
+    setLoading(true);
     import(`../pages/${pageName}/index.${language}.md`)
       .then((res) => {
         fetch(res.default)
@@ -44,7 +45,6 @@ const useMarkdown = (pageName) => {
   }, [pageName, language]);
 
   useEffect(() => {
-    setLoading(true);
     const yaml = post.split("<!--\n")[1]?.split("\n-->")[0];
     const config = load(yaml);
     setPage(config);
@@ -52,16 +52,25 @@ const useMarkdown = (pageName) => {
   }, [post, setPage]);
 
   return (
-    <div className={`Page__markdown ${loading ? "loading" : ""}`}>
-      <ReactMarkdown
-        children={post}
-        remarkPlugins={[remarkMath, remarkGfm, remarkHeading, remarkShortcodes]}
-        rehypePlugins={[rehypeKatex, rehypeRaw]}
-        components={{
-          del: (options) => CustomComponents(options),
-          code: (options) => CustomComponents(options),
-        }}
-      />
+    <div className="Page__markdown">
+      {loading ? (
+        <div className="loading"></div>
+      ) : (
+        <ReactMarkdown
+          children={post}
+          remarkPlugins={[
+            remarkMath,
+            remarkGfm,
+            remarkHeading,
+            remarkShortcodes,
+          ]}
+          rehypePlugins={[rehypeKatex, rehypeRaw]}
+          components={{
+            del: (options) => CustomComponents(options),
+            code: (options) => CustomComponents(options),
+          }}
+        />
+      )}
     </div>
   );
 };

@@ -1,10 +1,12 @@
-/* .Page__markdown.loading {
-  position: fixed;
-  border: 16px solid #f3f3f3;
-  border-top: 16px solid #3498db;
+.loading {
+  position: absolute;
+  top: calc(50% - 100px);
+  left: calc(50% - 100px);
+  border: 20px solid var(--neutral-80);
+  border-top: 20px solid var(--neutral-50);
   border-radius: 50%;
-  width: 120px;
-  height: 120px;
+  width: 200px;
+  height: 200px;
   animation: spin 2s linear infinite;
 }
 
@@ -15,17 +17,42 @@
   100% {
     transform: rotate(360deg);
   }
-} */
+}
 
 .Page__markdown {
   max-width: 800px;
+  height: 100%;
   width: 100%;
   margin: 0 auto;
+  position: relative;
 }
 
 .Page__markdown p {
   line-height: 2rem;
   margin-bottom: 2rem;
+  color: var(--neutral-05);
+}
+
+.Page__markdown h1::selection,
+.Page__markdown h2::selection,
+.Page__markdown h3::selection,
+.Page__markdown h4::selection,
+.Page__markdown h5::selection,
+.Page__markdown h6::selection,
+.Page__markdown p::selection,
+.Page__markdown em::selection,
+.Page__markdown strong::selection,
+.Page__markdown li::selection,
+.Page__markdown a::selection,
+.Page__markdown img::selection,
+.Page__markdown code::selection,
+.Page__markdown text::selection,
+.Page__markdown div::selection,
+.Page__markdown span::selection,
+.Page__markdown th::selection,
+.Page__markdown td::selection {
+  background: var(--neutral-50);
+  color: var(--neutral-white);
 }
 
 .Page__markdown h1,
@@ -53,27 +80,27 @@
 }
 
 .Page__markdown li {
-  font-family: Open Sans;
   font-style: normal;
   font-weight: normal;
   font-size: 1.4rem;
   line-height: 2rem;
-  color: var(--neutral-white);
+  color: var(--neutral-05);
 }
 
 .Page__markdown pre {
-  font-family: Open Sans;
   font-style: normal;
   font-weight: normal;
   font-size: 1.4rem;
   line-height: 2rem;
-  color: var(--neutral-white);
-  border-radius: 1rem;
+  color: var(--neutral-05);
   background-color: var(--neutral-100);
-  padding: 2rem;
-  padding-top: 3rem;
+  padding: 3rem 2rem;
   margin-bottom: 2rem;
   position: relative;
+  border-radius: 1rem;
+}
+
+.Page__markdown pre div {
   overflow-x: scroll;
 }
 
@@ -113,7 +140,7 @@
 }
 
 .Page__markdown a {
-  color: var(--neutral-white);
+  color: var(--neutral-05);
   text-decoration: underline !important;
 }
 
@@ -128,7 +155,7 @@
 
 .Page__markdown .katex {
   font-size: 1.6rem;
-  color: var(--neutral-white);
+  color: var(--neutral-05);
 }
 
 .Page__markdown iframe {
@@ -146,7 +173,7 @@
   font-weight: normal;
   font-size: 1.4rem;
   line-height: 2rem;
-  color: var(--neutral-white);
+  color: var(--neutral-05);
   border-collapse: collapse;
   width: 100%;
   margin-bottom: 2rem;

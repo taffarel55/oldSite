@@ -19,6 +19,8 @@ const MenuBar = () => {
 
 const MenuItem = ({ item: { title, link, img, subpages } }) => {
   const { page } = useGlobalContext();
+
+  // TOFIX: Fazer isso de uma forma melhor
   let linkPage = page.link;
   let categoryName = "";
   if (typeof linkPage !== "function") {

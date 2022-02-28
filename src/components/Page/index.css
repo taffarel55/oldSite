@@ -3,6 +3,9 @@
   margin-left: 240px;
   background: var(--neutral-90);
   transition: all 1s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
 }
 
 .Page.amplied {
@@ -12,6 +15,8 @@
 
 .Page__content {
   width: 100%;
+  min-height: calc(100vh - 60px);
+  height: auto;
   padding: 3rem 5rem;
   display: flex;
   flex-direction: column;

@@ -8,4 +8,5 @@
   gap: 32px;
   padding-bottom: 10px;
   overflow-x: scroll;
+  scrollbar-color: var(--neutral-50) var(--neutral-90);
 }

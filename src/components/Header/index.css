@@ -14,3 +14,19 @@
   gap: 0.4rem;
   color: var(--neutral-white);
 }
+
+.github-icon {
+  all: unset;
+}
+
+.github-icon img {
+  display: block;
+  width: 32px;
+  cursor: pointer;
+  filter: brightness(0.5);
+  transition: all 0.2s ease-in-out;
+}
+
+.github-icon:hover img {
+  filter: brightness(1);
+}

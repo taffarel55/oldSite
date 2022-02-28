@@ -29,15 +29,20 @@ console.log(`Olá mundo!`);
 - [x] Mudar fonte do site
 - [x] Ajustar overflow do menu lateral
 - [x] Icone de ativo na categoria
-- [ ] Sombra e efeitos nos Cards
-- [ ] Fazer um overlay e um componente de carregando o post
-- [ ] Editar no GitHub
+- [x] Resolver problema com os códigos
+- [x] Sombra e efeitos nos Cards
+- [x] Fazer um overlay e um componente de carregando o post
+- [x] Editar no GitHub
+- [ ] Usar o .loading enquanto não exibe um ReactMarkdown
+- [ ] Componentizar o .loading?
 - [ ] Botão de ir pra cima
 - [ ] Botões de compartilhamento
 - [ ] Fazer Breadcumb e icone do tema
 - [ ] Background da página
 - [ ] Informações como data e autor
 - [ ] Limpeza nas rebarbas e excessos
+- [ ] Fazer componentes para notas de info, tip, danger e colocar no markdown
+- [ ] Fazer um footer?
 - [ ] Deixar preparado pra mudar imagem
 - [ ] Recurso de newsletter?
 - [ ] Mudar os css para scss?
@@ -49,4 +54,7 @@ console.log(`Olá mundo!`);
 - [ ] Ajustar todos os posts
 - [ ] Revisar todos os estilos do markdown
 - [ ] Adicionar comentários
+- [ ] Instaview do Telegram.
+- [ ] Modo leitura e acessibilidade
+- [ ] Modo impressão/geração de PDF
 - [ ] Adicionar suporte a diagramas de eletrônica
