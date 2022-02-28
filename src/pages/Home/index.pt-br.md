@@ -33,6 +33,7 @@ console.log(`Olá mundo!`);
 - [x] Sombra e efeitos nos Cards
 - [x] Fazer um overlay e um componente de carregando o post
 - [x] Editar no GitHub
+- [ ] Tirar a seleção de texto da página
 - [ ] Usar o .loading enquanto não exibe um ReactMarkdown
 - [ ] Componentizar o .loading?
 - [ ] Botão de ir pra cima
@@ -52,6 +53,7 @@ console.log(`Olá mundo!`);
 - [ ] Criar finalmente as páginas
 - [ ] Colocar os metas de cada página
 - [ ] Ajustar todos os posts
+- [ ] Proteção contra copia
 - [ ] Revisar todos os estilos do markdown
 - [ ] Adicionar comentários
 - [ ] Instaview do Telegram.
