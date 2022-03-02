@@ -1,7 +1,7 @@
 ---
 name: Edit
 about: Edit something in the website!
-title: [Describe your proposal here]
+title: Describe your proposal here
 labels: edit
 assignees: taffarel55
 
