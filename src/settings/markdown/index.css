@@ -1,24 +1,3 @@
-.loading {
-  position: absolute;
-  top: calc(50% - 100px);
-  left: calc(50% - 100px);
-  border: 20px solid var(--neutral-80);
-  border-top: 20px solid var(--neutral-50);
-  border-radius: 50%;
-  width: 200px;
-  height: 200px;
-  animation: spin 2s linear infinite;
-}
-
-@keyframes spin {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
 .Page__markdown {
   max-width: 800px;
   height: 100%;
@@ -51,6 +30,7 @@
 .Page__markdown span::selection,
 .Page__markdown th::selection,
 .Page__markdown td::selection {
+  user-select: text;
   background: var(--neutral-50);
   color: var(--neutral-white);
 }

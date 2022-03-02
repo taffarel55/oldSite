@@ -15,7 +15,6 @@
 
 .Page__content {
   width: 100%;
-  min-height: calc(100vh - 60px);
   height: auto;
   padding: 3rem 5rem;
   display: flex;

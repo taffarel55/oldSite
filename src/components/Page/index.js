@@ -1,19 +1,33 @@
 import "./index.css";
 import Header from "../Header";
 import useGlobalContext from "../../hooks/useGlobalContext";
-import { useLocation } from "react-router-dom";
-import { useEffect } from "react";
 import useMarkdown from "../../hooks/useMarkdown";
+import { useState } from "react";
 
 const Page = ({ name, children }) => {
   const post = useMarkdown(name);
   const { collapse, page } = useGlobalContext();
 
-  const { pathname } = useLocation();
+  const [visible, setVisible] = useState(false);
 
-  useEffect(() => {
-    // eslint-disable-next-line
-  }, [pathname]);
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
+  const toggleVisibility = () => {
+    const scrolled = document.documentElement.scrollTop;
+    if (scrolled > 300) {
+      setVisible(true);
+    } else if (scrolled <= 300) {
+      setVisible(false);
+    }
+  };
+
+  // TOFIX: Melhorar como isso é feito!
+  window.addEventListener("scroll", toggleVisibility);
 
   return (
     <div className={`Page ${collapse ? "amplied" : ""}`}>
@@ -22,6 +36,10 @@ const Page = ({ name, children }) => {
         {children}
         {post}
       </div>
+      <div
+        className={`scroll-back MenuBar__button ${visible ? "visible" : ""}`}
+        onClick={scrollToTop}
+      ></div>
     </div>
   );
 };

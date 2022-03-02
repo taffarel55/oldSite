@@ -33,15 +33,19 @@ console.log(`Olá mundo!`);
 - [x] Sombra e efeitos nos Cards
 - [x] Fazer um overlay e um componente de carregando o post
 - [x] Editar no GitHub
-- [ ] Tirar a seleção de texto da página
-- [ ] Usar o .loading enquanto não exibe um ReactMarkdown
-- [ ] Componentizar o .loading?
-- [ ] Botão de ir pra cima
-- [ ] Botões de compartilhamento
+- [x] Tirar a seleção de texto da página
+- [x] Componentizar o .loading?
+- [x] Botão de ir pra cima
+- [x] Adicionar idioma issue
+- [x] Botões de compartilhamento
 - [ ] Fazer Breadcumb e icone do tema
 - [ ] Background da página
+- [ ] Descrição no YAML
 - [ ] Informações como data e autor
-- [ ] Limpeza nas rebarbas e excessos
+- [ ] Warnings Katex
+- [ ] Usar o .loading enquanto não exibe um ReactMarkdown
+- [ ] Limpeza nas rebarbas e excessos de código
+- [ ] Limpeza do repositório, libs, audit fix
 - [ ] Fazer componentes para notas de info, tip, danger e colocar no markdown
 - [ ] Fazer um footer?
 - [ ] Deixar preparado pra mudar imagem

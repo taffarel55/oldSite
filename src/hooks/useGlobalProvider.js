@@ -4,7 +4,7 @@ import usePages from "../settings/pages";
 
 const useGlobalProvider = () => {
   const pages = usePages();
-  const [collapse, setCollapse] = useState(false);
+  const [collapse, setCollapse] = useState(true);
   const [page, setPage] = useState("");
   const [subpages, setSubpages] = useState({});
 

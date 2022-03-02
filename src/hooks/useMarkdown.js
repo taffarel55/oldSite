@@ -1,17 +1,10 @@
 // import Markdown from "markdown-to-jsx";
 import { load } from "js-yaml";
-import "katex/dist/katex.min.css";
 import { useEffect, useState } from "react";
-import ReactMarkdown from "react-markdown";
-import rehypeKatex from "rehype-katex";
-import rehypeRaw from "rehype-raw";
-import remarkGfm from "remark-gfm";
-import remarkHeading from "remark-heading-id";
-import remarkMath from "remark-math";
-import remarkShortcodes from "remark-shortcodes";
+import Loading from "../components/Loading";
+import Markdown from "../components/Markdown";
 import useLanguage from "../settings/global";
 import useGlobalContext from "./useGlobalContext";
-import CustomComponents from "../components/CustomComponents";
 
 const ErrorPage = (err) => {
   return `
@@ -53,24 +46,7 @@ const useMarkdown = (pageName) => {
 
   return (
     <div className="Page__markdown">
-      {loading ? (
-        <div className="loading"></div>
-      ) : (
-        <ReactMarkdown
-          children={post}
-          remarkPlugins={[
-            remarkMath,
-            remarkGfm,
-            remarkHeading,
-            remarkShortcodes,
-          ]}
-          rehypePlugins={[rehypeKatex, rehypeRaw]}
-          components={{
-            del: (options) => CustomComponents(options),
-            code: (options) => CustomComponents(options),
-          }}
-        />
-      )}
+      {loading ? <Loading /> : <Markdown post={post} />}
     </div>
   );
 };

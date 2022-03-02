@@ -54,6 +54,21 @@
   transform: rotate(540deg);
 }
 
+.MenuBar__button.scroll-back {
+  transform: rotate(90deg);
+  position: fixed;
+  top: auto;
+  bottom: 10px;
+  right: 10px;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.MenuBar__button.scroll-back.visible {
+  visibility: visible;
+  opacity: 1;
+}
+
 .MenuItem {
   height: 64px;
   padding-left: 24px;
