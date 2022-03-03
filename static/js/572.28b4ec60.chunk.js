@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunktaffarel55_github_io=self.webpackChunktaffarel55_github_io||[]).push([[572],{9572:function(e,t,f){e.exports=f.p+"static/media/index.pt-br.f80f47e5f1757497bed7.md"}}]);

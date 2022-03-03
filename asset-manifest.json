@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.9c4b6407.css",
-    "main.js": "/static/js/main.fb841830.js",
+    "main.css": "/static/css/main.0a60e297.css",
+    "main.js": "/static/js/main.650613e2.js",
     "static/js/174.c7ed396b.chunk.js": "/static/js/174.c7ed396b.chunk.js",
     "static/js/994.07e68b43.chunk.js": "/static/js/994.07e68b43.chunk.js",
     "static/js/990.09b37d75.chunk.js": "/static/js/990.09b37d75.chunk.js",
-    "static/js/986.ccdb1688.chunk.js": "/static/js/986.ccdb1688.chunk.js",
-    "static/js/813.9d0a4a39.chunk.js": "/static/js/813.9d0a4a39.chunk.js",
+    "static/js/986.8d72db5f.chunk.js": "/static/js/986.8d72db5f.chunk.js",
+    "static/js/813.17a727b3.chunk.js": "/static/js/813.17a727b3.chunk.js",
     "static/js/564.e38ef796.chunk.js": "/static/js/564.e38ef796.chunk.js",
-    "static/js/70.7a2865cd.chunk.js": "/static/js/70.7a2865cd.chunk.js",
+    "static/js/70.4200325a.chunk.js": "/static/js/70.4200325a.chunk.js",
     "static/js/134.940de36a.chunk.js": "/static/js/134.940de36a.chunk.js",
-    "static/js/828.eb3f2e22.chunk.js": "/static/js/828.eb3f2e22.chunk.js",
-    "static/js/26.98d9c626.chunk.js": "/static/js/26.98d9c626.chunk.js",
-    "static/js/337.ffb2d391.chunk.js": "/static/js/337.ffb2d391.chunk.js",
-    "static/js/350.9d8f82ed.chunk.js": "/static/js/350.9d8f82ed.chunk.js",
+    "static/js/828.dae2e9c5.chunk.js": "/static/js/828.dae2e9c5.chunk.js",
+    "static/js/862.bc7dc044.chunk.js": "/static/js/862.bc7dc044.chunk.js",
+    "static/js/285.dbe09067.chunk.js": "/static/js/285.dbe09067.chunk.js",
+    "static/js/350.fc661aa0.chunk.js": "/static/js/350.fc661aa0.chunk.js",
     "static/js/600.4457ceff.chunk.js": "/static/js/600.4457ceff.chunk.js",
-    "static/js/892.696e69ae.chunk.js": "/static/js/892.696e69ae.chunk.js",
-    "static/js/572.42082fc1.chunk.js": "/static/js/572.42082fc1.chunk.js",
+    "static/js/892.14aac2f8.chunk.js": "/static/js/892.14aac2f8.chunk.js",
+    "static/js/572.28b4ec60.chunk.js": "/static/js/572.28b4ec60.chunk.js",
     "static/js/550.beb92df2.chunk.js": "/static/js/550.beb92df2.chunk.js",
-    "static/js/83.d895fdd6.chunk.js": "/static/js/83.d895fdd6.chunk.js",
+    "static/js/83.6f3bf9c9.chunk.js": "/static/js/83.6f3bf9c9.chunk.js",
     "static/js/185.9746018a.chunk.js": "/static/js/185.9746018a.chunk.js",
     "static/js/648.97afbd2b.chunk.js": "/static/js/648.97afbd2b.chunk.js",
     "static/media/logo.png": "/static/media/logo.c614b14e58b35d21f49b.png",
@@ -34,8 +34,8 @@
     "static/media/KaTeX_Main-Bold.woff": "/static/media/KaTeX_Main-Bold.0c3b8929d377c0e9b2f3.woff",
     "static/media/KaTeX_AMS-Regular.woff2": "/static/media/KaTeX_AMS-Regular.73ea273a72f4aca30ca5.woff2",
     "static/media/KaTeX_Typewriter-Regular.ttf": "/static/media/KaTeX_Typewriter-Regular.c5c02d763c89380dcb4e.ttf",
-    "static/media/KaTeX_Main-Regular.woff2": "/static/media/KaTeX_Main-Regular.f650f111a3b890d116f1.woff2",
     "static/media/index.pt-br.md": "/static/media/index.pt-br.fc2c4e4ed2ecf04b2a9a.md",
+    "static/media/KaTeX_Main-Regular.woff2": "/static/media/KaTeX_Main-Regular.f650f111a3b890d116f1.woff2",
     "static/media/KaTeX_Main-Bold.woff2": "/static/media/KaTeX_Main-Bold.39890742bc957b368704.woff2",
     "static/media/KaTeX_SansSerif-Bold.ttf": "/static/media/KaTeX_SansSerif-Bold.5b49f4993ae22d7975b4.ttf",
     "static/media/KaTeX_SansSerif-Italic.ttf": "/static/media/KaTeX_SansSerif-Italic.b257a18c016f37ee4543.ttf",
@@ -91,11 +91,11 @@
     "static/media/profile.svg": "/static/media/profile.a4e20b80d17d42441f043a019b925d0d.svg",
     "static/media/house.svg": "/static/media/house.9739402f2d312c10446f8f1b198b67a8.svg",
     "static/media/folder.svg": "/static/media/folder.b5af42992bd9fda3a23e654bfb88571e.svg",
-    "main.9c4b6407.css.map": "/static/css/main.9c4b6407.css.map",
-    "main.fb841830.js.map": "/static/js/main.fb841830.js.map"
+    "main.0a60e297.css.map": "/static/css/main.0a60e297.css.map",
+    "main.650613e2.js.map": "/static/js/main.650613e2.js.map"
   },
   "entrypoints": [
-    "static/css/main.9c4b6407.css",
-    "static/js/main.fb841830.js"
+    "static/css/main.0a60e297.css",
+    "static/js/main.650613e2.js"
   ]
 }
