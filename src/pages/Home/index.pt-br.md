@@ -38,10 +38,14 @@ console.log(`Olá mundo!`);
 - [x] Botão de ir pra cima
 - [x] Adicionar idioma issue
 - [x] Botões de compartilhamento
-- [ ] Fazer Breadcumb e icone do tema
-- [ ] Background da página
-- [ ] Descrição no YAML
-- [ ] Informações como data e autor
+- [x] Definir padrão de yaml nos posts
+- [x] Fazer Breadcumb
+- [x] Background da página
+- [x] Descrição no YAML
+- [x] Informações como data e autor
+- [ ] Revisões de posts e responsividade
+- [ ] Icone no header do tema
+- [ ] Idioma no header do tema
 - [ ] Warnings Katex
 - [ ] Usar o .loading enquanto não exibe um ReactMarkdown
 - [ ] Limpeza nas rebarbas e excessos de código

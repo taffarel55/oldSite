@@ -1,8 +1,15 @@
 <!--
-title: "Blog"
-link: "/blog"
-author: taffarel55
-date: 22-10-2012
+title: Perceptron
+link: /blog/computing/perceptron
+categoryTitle: Computação
+categoryLink: /blog/computing
+tags: [Redes Neurais, Matemática, Inteligência Artificial]
+authorNick: taffarel55
+authorName: Maurício Taffarel
+authorId: 18634201
+description: Esta é uma descrição em português
+date: "2012/10/22"
+time: 35
 -->
 
 # Implementação do Perceptron

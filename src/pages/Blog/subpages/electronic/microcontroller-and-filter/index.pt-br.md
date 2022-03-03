@@ -1,8 +1,15 @@
 <!--
-title: "Blog"
-link: "/blog"
-author: taffarel55
-date: 22-10-2012
+title: Microcontrolador e filtro
+link: /blog/electronic/microcontroller-and-filter
+categoryTitle: Eletrônica
+categoryLink: /blog/electronic
+tags: [Computação, Matemática, Desafio]
+authorNick: taffarel55
+authorName: Maurício Taffarel
+authorId: 18634201
+description: Esta é uma descrição em português
+date: "2012/10/22"
+time: 14
 -->
 
 # Conversão A/D – D/A com microcontrolador e filtro

@@ -1,8 +1,15 @@
 <!--
-title: "Blog"
-link: "/blog"
-author: taffarel55
-date: 22-10-2012
+title: Jogo da Vida
+link: /blog/computing/conways-game-of-life
+categoryTitle: Computação
+categoryLink: /blog/computing
+tags: [Computação, Matemática, Desafio]
+authorNick: taffarel55
+authorName: Maurício Taffarel
+authorId: 18634201
+description: Esta é uma descrição em português
+date: "2012/10/22"
+time: 20
 -->
 
 <h1 align="center">
@@ -17,8 +24,8 @@ Implementação do [jogo da vida](https://pt.wikipedia.org/wiki/Jogo_da_vida) em
 
 ---
 
-|                  Software                  |                  Hardware                   |
-| :----------------------------------------: | :-----------------------------------------: |
+|                  Software                  |                  Hardware                  |
+| :----------------------------------------: | :----------------------------------------: |
 | ![software](https://imgur.com/8LuLnBr.png) | ![hardware](https://imgur.com/v3XmHx1.png) |
 
 ## Contribuindo

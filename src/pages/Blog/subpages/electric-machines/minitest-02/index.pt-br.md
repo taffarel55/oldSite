@@ -1,8 +1,15 @@
 <!--
-title: "Blog"
-link: "/blog"
-author: taffarel55
-date: 22-10-2012
+title: Miniteste 2
+link: /blog/electric-machines/minitest-02
+categoryTitle: Máquinas Elétricas
+categoryLink: /blog/electric-machines
+tags: [Máquinas]
+authorNick: taffarel55
+authorName: Maurício Taffarel
+authorId: 18634201
+description: Esta é uma descrição em português
+date: "2012/10/22"
+time: 6
 -->
 
 # Texto Introdutório 02 - Conversão

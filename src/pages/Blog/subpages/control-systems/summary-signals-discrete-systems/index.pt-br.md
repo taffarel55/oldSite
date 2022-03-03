@@ -1,8 +1,15 @@
 <!--
-title: "Blog"
-link: "/blog"
-author: taffarel55
-date: 22-10-2012
+title: Resumo de Sinais e Sistemas
+link: /blog/control-systems/summary-signals-discrete-systems
+categoryTitle: Controle
+categoryLink: /blog/control-systems
+tags: [Controle, Microcontroladores]
+authorNick: taffarel55
+authorName: Maurício Taffarel
+authorId: 18634201
+description: Esta é uma descrição em português
+date: "2012/10/22"
+time: 19
 -->
 
 # Resumo Sinais II

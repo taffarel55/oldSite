@@ -1,0 +1,103 @@
+.Page__details a {
+  line-height: unset;
+}
+
+.Page__description {
+  font-size: 2rem;
+  color: var(--neutral-05);
+}
+
+.Page__banner {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 0 0 1rem 1rem;
+  margin-bottom: 1rem;
+}
+
+.Page__breadcumb {
+  padding: 3px 0px 3px 10px;
+  border-radius: 1rem 1rem 0 0;
+  background: var(--neutral-100);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.Page__breadcumb img {
+  height: 22px;
+  vertical-align: middle;
+  filter: invert(1);
+}
+
+.Page__breadcumb a {
+  color: var(--neutral-05);
+}
+
+.Page__breadcumb a + a:before {
+  padding: 8px;
+  content: ">";
+}
+
+.Page__info {
+  display: flex;
+  align-items: center;
+}
+
+.Page__info-img {
+  width: 40px;
+  background: var(--neutral-05);
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+.Page__info-text {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  color: var(--neutral-05);
+}
+
+.Page__info-author {
+  font-size: 1.4rem !important;
+}
+
+.Page__info-date {
+  font-size: 1.2rem;
+  color: var(--neutral-20);
+}
+
+.Page__info-time {
+  font-size: 1rem;
+  color: var(--neutral-20);
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.Page__info-tags {
+  font-size: 1.1rem;
+  margin-left: auto;
+  align-self: flex-end;
+  display: flex;
+  align-items: flex-end;
+  gap: 4px;
+  color: var(--neutral-50);
+  flex-wrap: wrap;
+}
+
+.Page__info-tags div::before {
+  content: "#";
+}
+
+@media (max-width: 600px) {
+  .Page__info {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3px;
+  }
+  .Page__info-tags {
+    margin: 0;
+  }
+}

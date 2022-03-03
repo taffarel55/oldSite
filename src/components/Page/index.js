@@ -3,6 +3,7 @@ import Header from "../Header";
 import useGlobalContext from "../../hooks/useGlobalContext";
 import useMarkdown from "../../hooks/useMarkdown";
 import { useState } from "react";
+// import { ReactingButtons } from "../../components/ShareButtons";
 
 const Page = ({ name, children }) => {
   const post = useMarkdown(name);
@@ -35,6 +36,7 @@ const Page = ({ name, children }) => {
       <div className="Page__content">
         {children}
         {post}
+        {/* {page.tags && <ReactingButtons />} */}
       </div>
       <div
         className={`scroll-back MenuBar__button ${visible ? "visible" : ""}`}

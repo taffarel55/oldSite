@@ -21,11 +21,11 @@ const MenuItem = ({ item: { title, link, img, subpages } }) => {
   const { page } = useGlobalContext();
 
   // TOFIX: Fazer isso de uma forma melhor
-  let linkPage = page.link;
+  let linkPage = page.parentLink || page.link;
   let categoryName = "";
   if (typeof linkPage !== "function") {
     linkPage = "/" + linkPage.split("/")[1];
-    categoryName = page.link.split("/")[2];
+    categoryName = linkPage.split("/")[2];
   }
 
   return (

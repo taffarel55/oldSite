@@ -1,8 +1,15 @@
 <!--
-title: "Blog"
-link: "/blog"
-author: taffarel55
-date: 22-10-2012
+title: Projeto de amplificador de áudio
+link: /blog/electronic/audio-amplifier
+categoryTitle: Eletrônica
+categoryLink: /blog/electric-machines
+tags: [Eletrônica, Sinais de áudio, Projetinho]
+authorNick: taffarel55
+authorName: Maurício Taffarel
+authorId: 18634201
+description: Veja neste guia, passo a passo, como é o projeto básico de um amplificador de áudio a um transistor.
+date: "2022/02/22"
+time: 14
 -->
 
 # Projeto 3 - Projeto de amplificadores de um transistor
@@ -17,7 +24,6 @@ Os amplificadores de áudio, por exemplo, são essenciais uma vez que os aparelh
 
 Portanto, a partir desse trabalho estudaremos de forma detalhada e empírica a construção de circuitos capazes de promover a amplificação de sinais, sejam de áudio ou não, utilizando como célula básica, os transistores já estudados pelos alunos de Engenharia Elétrica durante a matéria de Laboratório Integravo IV. Com ênfase no amplificador usando um transistor e o amplificador diferencial, que utiliza dois transistores, formando um circuito em espelho.
 
-
 ## Projeto de amplificadores de um transistor
 
 Para realizar o projeto do amplificador utilizando um transistor, foi necessário seguir, como forma de concepção do circuito, o gabarito fornecido:
@@ -31,7 +37,6 @@ A= 25
 $V_{0}$ = 0,5 V
 $R_{L}$ = 1 $M\Omega$
 $I_{0}$ = $5.10^{-7}$ A
-
 
 A partir do cálculo dos parâmetros iniciais, o primeiro passo do projeto foi a eliminação das capacitâncias de acoplamento e aterramento por circuito aberto, bem como obter o ponto de polarização e, em seguida, determinar o valor dos parâmetros que envolvem a discussão de um transistor a pequenos sinais. A primeira curva que se observa a seguir modela a corrente de saída pela tensão na malha de entrada. Escolher um bom ponto é crucial, uma vez que a depender da região, o sinal de entrada pode ser cortado ou amplificado por completo de forma satisfatória.
 
@@ -48,7 +53,7 @@ Em posse dos valores de corrente de coletor e a tensão na malha de entrada, bem
 Após levantar a curva, analisamos a excurssão do sinal de definimos o valor de $V_{BE}=0.66V$. Isso resulta em uma corrente de coletor de $I_{C}=3.02\cdot10^{-3}$.
 
 Considerendo 100mV no resistor $R_E$:
-$$ R_{E}=\frac{0.1}{I_{C}} = 33.11\Omega$$
+$$ R*{E}=\frac{0.1}{I*{C}} = 33.11\Omega$$
 
 Fazendo corrente estática do ramo de entrada ser $10\% \space I_C$, calculamos $I_1$:
 
@@ -91,6 +96,7 @@ O valor de todos os capacitores escolhidos foram de $1\mu F$.
 ### Descrição das simulações e seus resultados.
 
 Foram realizadas 3 tipos de simulações:
+
 - Simulação DC
 - Simulação AC
 - Balanço Harmônico
@@ -106,7 +112,6 @@ Com os valores calculados e ajustados, foram medidos os valores através de uma 
 Com os valores calculados anteriormente o seguinte esquemático a seguir foi montado:
 
 ![](https://i.imgur.com/dUVZkGI.png)
-
 
 Os resultados da simulação estão descritos abaixo:
 ![](https://i.imgur.com/mgtWbMT.png)
@@ -147,7 +152,7 @@ Para a entrada de $V_{in}= 200 mV$, obtem-se:
 
 ![](https://i.imgur.com/fh7gnh2.png)
 
-Como se verifica acima, ao aumentar a tensão de entrada, aumenta-se também as harmônicas em relação ao sinal de entrada. Portanto, como dito na introdução um dos parâmetros para a construção de um amplificador satisfatório é o ponto de operação e, a magnitude da tensão de entrada que se busca amplificar, uma vez que o transistor não é um componente linear. Ademais, para sinais de entrada muito altos, a análise de pequenos sinais não é fidedigna. 
+Como se verifica acima, ao aumentar a tensão de entrada, aumenta-se também as harmônicas em relação ao sinal de entrada. Portanto, como dito na introdução um dos parâmetros para a construção de um amplificador satisfatório é o ponto de operação e, a magnitude da tensão de entrada que se busca amplificar, uma vez que o transistor não é um componente linear. Ademais, para sinais de entrada muito altos, a análise de pequenos sinais não é fidedigna.
 
 ### Conclusões.
 
@@ -155,30 +160,11 @@ Como se pode obversar através das discussões realizadas acima, o circuito deno
 
 Ademais, por meio do trabalho pode-se aprender sobre a polarização do transistor e a construção de um amplificador de sinal, circuito extremamente importante em diversas aplicações distintas.
 
-## 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+##
 
 ## Projeto de um amplificador diferencial
-O segundo projeto é constituído por um amplificador diferencial, isto é, a tensão de saída é uma função da diferença dos sinais de entrada. Entre as vantagens dos amplificadores diferenciais, pode-se citar: possibilidade de aumento da excursão de um sinal resultante, cancelamento do segundo harmônico, imunidade a sinais interferentes e rejeição do ruído da fonte de alimentação através do balanceamento. 
+
+O segundo projeto é constituído por um amplificador diferencial, isto é, a tensão de saída é uma função da diferença dos sinais de entrada. Entre as vantagens dos amplificadores diferenciais, pode-se citar: possibilidade de aumento da excursão de um sinal resultante, cancelamento do segundo harmônico, imunidade a sinais interferentes e rejeição do ruído da fonte de alimentação através do balanceamento.
 
 Além disso, apresenta uma faixa de linearidade maior do que no emissor comum. É importante salientar ainda que, para que se possa usufruir das particularidades da topologia diferencial, é essencial que os transistores que compõem a topologia sejam iguais, isto é, se observe a simetria física no circuito. Caso contrário, não se garante a presença de todas as características citadas anteriormente.
 
@@ -188,6 +174,4 @@ Além disso, apresenta uma faixa de linearidade maior do que no emissor comum. �
 
 ### Conclusões.
 
-
 ## Referênias bibliográficas.
-

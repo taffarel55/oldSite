@@ -1,8 +1,15 @@
 <!--
-title: "Blog"
-link: "/blog"
-author: taffarel55
-date: 22-10-2012
+title: Não linearidade no transformador
+link: /blog/electric-machines/nonlinearity-transformer
+categoryTitle: Máquinas Elétricas
+categoryLink: /blog/electric-machines
+tags: [Computação, Matemática, Desafio]
+authorNick: taffarel55
+authorName: Maurício Taffarel
+authorId: 18634201
+description: Esta é uma descrição em português
+date: "2012/10/22"
+time: 14
 -->
 
 # Trabalho - Texto Introdutório
@@ -56,7 +63,6 @@ $$\phi(t)=B_{c}(t)\times A_{c}$$
 Sabendo também que é possível traçar uma curva característica entre $H_{c}$ e $B_{c}$, que vimos ateriormente que não é linear, podemos obter também uma curva $i_{\phi}\times\phi$ análoga mostrada na [figura 3(b)](#Figura-3---Fen%C3%B4menos-de-excita%C3%A7%C3%A3o-a-Tens%C3%A3o-fluxo-e-corrente-de-excita%C3%A7%C3%A3o-b-La%C3%A7o-de-histerese-correspondente2), uma vez que $A_{c}$, $l_{c}$ e $N$ são grandezas constantes do transformador apresentado na [figura 2](#Figura-2---Transformador1).
     
 Logo, podemos obter gráficamente $i_{\phi}(t)$ através do laço de histerese:
-
 
 <center>
     
