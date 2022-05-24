@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.0a60e297.css",
-    "main.js": "/static/js/main.650613e2.js",
+    "main.js": "/static/js/main.5097c33a.js",
     "static/js/174.c7ed396b.chunk.js": "/static/js/174.c7ed396b.chunk.js",
     "static/js/994.07e68b43.chunk.js": "/static/js/994.07e68b43.chunk.js",
     "static/js/990.09b37d75.chunk.js": "/static/js/990.09b37d75.chunk.js",
@@ -13,7 +13,7 @@
     "static/js/828.dae2e9c5.chunk.js": "/static/js/828.dae2e9c5.chunk.js",
     "static/js/862.bc7dc044.chunk.js": "/static/js/862.bc7dc044.chunk.js",
     "static/js/285.dbe09067.chunk.js": "/static/js/285.dbe09067.chunk.js",
-    "static/js/350.fc661aa0.chunk.js": "/static/js/350.fc661aa0.chunk.js",
+    "static/js/350.b50e717f.chunk.js": "/static/js/350.b50e717f.chunk.js",
     "static/js/600.4457ceff.chunk.js": "/static/js/600.4457ceff.chunk.js",
     "static/js/892.14aac2f8.chunk.js": "/static/js/892.14aac2f8.chunk.js",
     "static/js/572.28b4ec60.chunk.js": "/static/js/572.28b4ec60.chunk.js",
@@ -30,11 +30,11 @@
     "static/media/KaTeX_Main-BoldItalic.ttf": "/static/media/KaTeX_Main-BoldItalic.828abcb200061cffbaae.ttf",
     "static/media/KaTeX_Math-Italic.ttf": "/static/media/KaTeX_Math-Italic.8a5f936332e8028c7278.ttf",
     "static/media/KaTeX_Math-BoldItalic.ttf": "/static/media/KaTeX_Math-BoldItalic.bf2d440b3a42ea78a998.ttf",
+    "static/media/index.pt-br.md": "/static/media/index.pt-br.fc2c4e4ed2ecf04b2a9a.md",
     "static/media/KaTeX_Main-Regular.woff": "/static/media/KaTeX_Main-Regular.4f35fbcc9ee8614c2bcc.woff",
     "static/media/KaTeX_Main-Bold.woff": "/static/media/KaTeX_Main-Bold.0c3b8929d377c0e9b2f3.woff",
     "static/media/KaTeX_AMS-Regular.woff2": "/static/media/KaTeX_AMS-Regular.73ea273a72f4aca30ca5.woff2",
     "static/media/KaTeX_Typewriter-Regular.ttf": "/static/media/KaTeX_Typewriter-Regular.c5c02d763c89380dcb4e.ttf",
-    "static/media/index.pt-br.md": "/static/media/index.pt-br.fc2c4e4ed2ecf04b2a9a.md",
     "static/media/KaTeX_Main-Regular.woff2": "/static/media/KaTeX_Main-Regular.f650f111a3b890d116f1.woff2",
     "static/media/KaTeX_Main-Bold.woff2": "/static/media/KaTeX_Main-Bold.39890742bc957b368704.woff2",
     "static/media/KaTeX_SansSerif-Bold.ttf": "/static/media/KaTeX_SansSerif-Bold.5b49f4993ae22d7975b4.ttf",
@@ -92,10 +92,10 @@
     "static/media/house.svg": "/static/media/house.9739402f2d312c10446f8f1b198b67a8.svg",
     "static/media/folder.svg": "/static/media/folder.b5af42992bd9fda3a23e654bfb88571e.svg",
     "main.0a60e297.css.map": "/static/css/main.0a60e297.css.map",
-    "main.650613e2.js.map": "/static/js/main.650613e2.js.map"
+    "main.5097c33a.js.map": "/static/js/main.5097c33a.js.map"
   },
   "entrypoints": [
     "static/css/main.0a60e297.css",
-    "static/js/main.650613e2.js"
+    "static/js/main.5097c33a.js"
   ]
 }
