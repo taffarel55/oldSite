@@ -16,7 +16,7 @@ const Header = ({ title }) => {
           className="github-icon"
           rel="noreferrer"
           target="_blank"
-          href={`https://github.com/taffarel55/taffarel55.github.io/issues/new?assignees=taffarel55&labels=edit&template=edit.md&title=Describe+your+proposal+here+for ${
+          href={`https://github.com/taffarel55/oldSite/issues/new?assignees=taffarel55&labels=edit&template=edit.md&title=Describe+your+proposal+here+for ${
             page.link
           } in ${language()} language`}
         >
